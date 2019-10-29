@@ -23,9 +23,17 @@ class TestAnalyticsApi(unittest.TestCase):
     """AnalyticsApi unit test stubs"""
 
     def setUp(self):
+        # From AnalyticsApi.md:
+        #configuration = fcsm_eos_api_client.Configuration()
+        # Configure Bearer authorization (JWT): bearerAuth
+        #configuration.access_token = 'YOUR_BEARER_TOKEN'
+        # Defining host is optional and default to https://emeia-eos.fcsm.io
+        #configuration.host = "https://emeia-eos.fcsm.io"
+        # Create an instance of the API class
+        #api_instance = fcsm_eos_api_client.AnalyticsApi(fcsm_eos_api_client.ApiClient(configuration))
         self.api = fcsm_eos_api_client.api.analytics_api.AnalyticsApi()  # noqa: E501
-        #from .set_token import set_api_token
-        #set_api_token(self.api)
+        from fcsm_eos_api_client.get_token import set_api_token
+        set_api_token(self.api)
 
     def tearDown(self):
         pass

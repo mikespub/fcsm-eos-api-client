@@ -124,7 +124,7 @@ class ImgWhitelistApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/whitelist/imageOS', 'GET',
@@ -230,7 +230,7 @@ class ImgWhitelistApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/whitelist/images', 'DELETE',
@@ -352,7 +352,7 @@ class ImgWhitelistApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/whitelist/images', 'GET',
@@ -466,7 +466,7 @@ class ImgWhitelistApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/whitelist/images/{imageId}', 'DELETE',
@@ -580,7 +580,7 @@ class ImgWhitelistApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/whitelist/images/{imageId}', 'GET',
@@ -706,7 +706,7 @@ class ImgWhitelistApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/whitelist/images/{imageId}', 'PATCH',
@@ -834,7 +834,7 @@ class ImgWhitelistApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/whitelist/images/{imageId}', 'PUT',
@@ -952,7 +952,7 @@ class ImgWhitelistApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/whitelist/images', 'POST',
@@ -1050,7 +1050,7 @@ class ImgWhitelistApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/whitelist/osList', 'GET',

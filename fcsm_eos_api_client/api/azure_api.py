@@ -132,7 +132,7 @@ class AzureApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/azure/compute/availabilitySets/{availability_set_id}', 'GET',
@@ -238,7 +238,7 @@ class AzureApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/azure/compute/availabilitySets', 'GET',
@@ -344,7 +344,7 @@ class AzureApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/azure/compute/availabilityZones', 'GET',
@@ -458,7 +458,7 @@ class AzureApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/azure/compute/flavors/{flavor_id}', 'GET',
@@ -564,7 +564,7 @@ class AzureApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/azure/compute/flavors', 'GET',
@@ -681,7 +681,7 @@ class AzureApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/azure/compute/images/{image_id}', 'GET',
@@ -799,7 +799,7 @@ class AzureApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/azure/compute/interfaces', 'GET',
@@ -921,7 +921,7 @@ class AzureApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/azure/compute/keypairs/{keypair_id}', 'DELETE',
@@ -1039,7 +1039,7 @@ class AzureApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/azure/compute/keypairs/generate', 'POST',
@@ -1161,7 +1161,7 @@ class AzureApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/azure/compute/keypairs/{keypair_id}', 'GET',
@@ -1279,7 +1279,7 @@ class AzureApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/azure/compute/keypairs/import', 'POST',
@@ -1389,7 +1389,7 @@ class AzureApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/azure/compute/keypairs', 'GET',
@@ -1507,7 +1507,7 @@ class AzureApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/azure/compute/networks/{network_id}/subnets', 'GET',
@@ -1617,7 +1617,7 @@ class AzureApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/azure/compute/networks', 'GET',
@@ -1734,7 +1734,7 @@ class AzureApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/azure/compute/privateImages/{image_id}', 'GET',
@@ -1847,7 +1847,7 @@ class AzureApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/azure/compute/privateImages', 'GET',
@@ -1964,7 +1964,7 @@ class AzureApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/azure/compute/publicImages/{image_id}', 'GET',
@@ -2077,7 +2077,7 @@ class AzureApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/azure/compute/publicImages', 'GET',
@@ -2181,7 +2181,7 @@ class AzureApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/azure/compute/regions', 'GET',
@@ -2287,7 +2287,7 @@ class AzureApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/azure/compute/resourceGroups', 'GET',
@@ -2405,7 +2405,7 @@ class AzureApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/azure/compute/resourceGroups', 'POST',
@@ -2515,7 +2515,7 @@ class AzureApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/azure/compute/securityGroups', 'GET',
@@ -2629,7 +2629,7 @@ class AzureApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/azure/compute/snapshots/{snapshot_id}', 'DELETE',
@@ -2739,7 +2739,7 @@ class AzureApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/azure/compute/snapshots', 'GET',
@@ -2857,7 +2857,7 @@ class AzureApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/azure/compute/snapshots', 'POST',
@@ -2967,7 +2967,7 @@ class AzureApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/azure/compute/validateSubscription', 'POST',
@@ -3091,7 +3091,7 @@ class AzureApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/azure/compute/vms/{vm_id}/command/{action}', 'PUT',
@@ -3207,7 +3207,7 @@ class AzureApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/azure/compute/vms/{vm_id}', 'DELETE',
@@ -3323,7 +3323,7 @@ class AzureApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/azure/compute/vms/{vm_id}/details', 'GET',
@@ -3437,7 +3437,7 @@ class AzureApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/azure/compute/vms/{vm_id}/unassignFloatingIp', 'DELETE',
@@ -3551,7 +3551,7 @@ class AzureApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/azure/compute/vms/{vm_id}/assignFloatingIp', 'PUT',
@@ -3665,7 +3665,7 @@ class AzureApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/azure/compute/vms/{vm_id}', 'GET',
@@ -3779,7 +3779,7 @@ class AzureApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/azure/compute/vms/{vm_id}/management', 'GET',
@@ -3893,7 +3893,7 @@ class AzureApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/azure/compute/vms/{vm_id}/password', 'GET',
@@ -4015,7 +4015,7 @@ class AzureApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/azure/compute/vms/{vm_id}', 'PATCH',
@@ -4137,7 +4137,7 @@ class AzureApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/azure/compute/vms/{vm_id}/securityGroups/{security_group_id}', 'DELETE',
@@ -4259,7 +4259,7 @@ class AzureApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/azure/compute/vms/{vm_id}/securityGroups/{security_group_id}', 'PUT',
@@ -4385,7 +4385,7 @@ class AzureApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/azure/compute/vms/{vm_id}/setTag', 'PUT',
@@ -4501,7 +4501,7 @@ class AzureApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/azure/compute/vms/{vm_id}/workshift', 'DELETE',
@@ -4629,7 +4629,7 @@ class AzureApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/azure/compute/vms/{vm_id}/workshift', 'POST',
@@ -4757,7 +4757,7 @@ class AzureApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/azure/compute/vms/{vm_id}/workshift', 'PUT',
@@ -4871,7 +4871,7 @@ class AzureApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/azure/compute/vms', 'GET',
@@ -4987,7 +4987,7 @@ class AzureApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/azure/compute/vms', 'POST',
@@ -5109,7 +5109,7 @@ class AzureApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/azure/compute/volumes/{volume_id}/detach', 'DELETE',
@@ -5231,7 +5231,7 @@ class AzureApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/azure/compute/volumes/{volume_id}/attach', 'PUT',
@@ -5345,7 +5345,7 @@ class AzureApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/azure/compute/volumes/{volume_id}', 'DELETE',
@@ -5459,7 +5459,7 @@ class AzureApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/azure/compute/volumes/{volume_id}', 'GET',
@@ -5585,7 +5585,7 @@ class AzureApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/azure/compute/volumes/{volume_id}', 'PATCH',
@@ -5699,7 +5699,7 @@ class AzureApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/azure/compute/volumeTypes', 'GET',
@@ -5817,7 +5817,7 @@ class AzureApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/azure/compute/volumes', 'GET',
@@ -5935,7 +5935,7 @@ class AzureApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/azure/compute/volumes', 'POST',

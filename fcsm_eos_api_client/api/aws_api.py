@@ -126,7 +126,7 @@ class AwsApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/aws/compute/availabilityZones', 'GET',
@@ -240,7 +240,7 @@ class AwsApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/aws/compute/flavors/{flavor_id}', 'GET',
@@ -346,7 +346,7 @@ class AwsApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/aws/compute/flavors', 'GET',
@@ -460,7 +460,7 @@ class AwsApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/aws/compute/images/{image_id}', 'GET',
@@ -578,7 +578,7 @@ class AwsApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/aws/compute/interfaces', 'GET',
@@ -692,7 +692,7 @@ class AwsApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/aws/compute/keypairs/{keypair_id}', 'DELETE',
@@ -810,7 +810,7 @@ class AwsApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/aws/compute/keypairs/generate', 'POST',
@@ -924,7 +924,7 @@ class AwsApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/aws/compute/keypairs/{keypair_id}', 'GET',
@@ -1042,7 +1042,7 @@ class AwsApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/aws/compute/keypairs/import', 'POST',
@@ -1156,7 +1156,7 @@ class AwsApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/aws/compute/keypairs', 'GET',
@@ -1278,7 +1278,7 @@ class AwsApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/aws/compute/networks/{network_id}/subnets', 'GET',
@@ -1392,7 +1392,7 @@ class AwsApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/aws/compute/networks', 'GET',
@@ -1506,7 +1506,7 @@ class AwsApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/aws/compute/privateImages/{image_id}', 'GET',
@@ -1616,7 +1616,7 @@ class AwsApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/aws/compute/privateImages', 'GET',
@@ -1730,7 +1730,7 @@ class AwsApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/aws/compute/publicImages/{image_id}', 'GET',
@@ -1840,7 +1840,7 @@ class AwsApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/aws/compute/publicImages', 'GET',
@@ -1944,7 +1944,7 @@ class AwsApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/aws/compute/regions', 'GET',
@@ -2054,7 +2054,7 @@ class AwsApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/aws/compute/securityGroups', 'GET',
@@ -2168,7 +2168,7 @@ class AwsApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/aws/compute/snapshots/{snapshot_id}', 'DELETE',
@@ -2278,7 +2278,7 @@ class AwsApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/aws/compute/snapshots', 'GET',
@@ -2396,7 +2396,7 @@ class AwsApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/aws/compute/snapshots', 'POST',
@@ -2508,7 +2508,7 @@ class AwsApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/aws/compute/validateSubscription', 'POST',
@@ -2630,7 +2630,7 @@ class AwsApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/aws/compute/vms/{vm_id}/command/{action}', 'PUT',
@@ -2744,7 +2744,7 @@ class AwsApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/aws/compute/vms/{vm_id}', 'DELETE',
@@ -2858,7 +2858,7 @@ class AwsApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/aws/compute/vms/{vm_id}/details', 'GET',
@@ -2972,7 +2972,7 @@ class AwsApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/aws/compute/vms/{vm_id}', 'GET',
@@ -3086,7 +3086,7 @@ class AwsApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/aws/compute/vms/{vm_id}/management', 'GET',
@@ -3202,7 +3202,7 @@ class AwsApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/aws/compute/vms/{vm_id}/password', 'GET',
@@ -3328,7 +3328,7 @@ class AwsApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/aws/compute/vms/{vm_id}', 'PATCH',
@@ -3450,7 +3450,7 @@ class AwsApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/aws/compute/vms/{vm_id}/securityGroups/{security_group_id}', 'DELETE',
@@ -3572,7 +3572,7 @@ class AwsApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/aws/compute/vms/{vm_id}/securityGroups/{security_group_id}', 'PUT',
@@ -3698,7 +3698,7 @@ class AwsApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/aws/compute/vms/{vm_id}/setTag', 'PUT',
@@ -3812,7 +3812,7 @@ class AwsApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/aws/compute/vms/{vm_id}/workshift', 'DELETE',
@@ -3938,7 +3938,7 @@ class AwsApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/aws/compute/vms/{vm_id}/workshift', 'POST',
@@ -4064,7 +4064,7 @@ class AwsApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/aws/compute/vms/{vm_id}/workshift', 'PUT',
@@ -4178,7 +4178,7 @@ class AwsApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/aws/compute/vms', 'GET',
@@ -4298,7 +4298,7 @@ class AwsApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/aws/compute/vms', 'POST',
@@ -4422,7 +4422,7 @@ class AwsApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/aws/compute/volumes/{volume_id}/detach', 'DELETE',
@@ -4546,7 +4546,7 @@ class AwsApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/aws/compute/volumes/{volume_id}/attach', 'PUT',
@@ -4660,7 +4660,7 @@ class AwsApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/aws/compute/volumes/{volume_id}', 'DELETE',
@@ -4774,7 +4774,7 @@ class AwsApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/aws/compute/volumes/{volume_id}', 'GET',
@@ -4900,7 +4900,7 @@ class AwsApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/aws/compute/volumes/{volume_id}', 'PATCH',
@@ -5014,7 +5014,7 @@ class AwsApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/aws/compute/volumeTypes', 'GET',
@@ -5136,7 +5136,7 @@ class AwsApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/aws/compute/volumes', 'GET',
@@ -5254,7 +5254,7 @@ class AwsApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/aws/compute/volumes', 'POST',

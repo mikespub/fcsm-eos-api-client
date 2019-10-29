@@ -64,15 +64,21 @@ Gets availability set by id
 
 ### Example
 
+* Bearer (JWT) Authentication (bearerAuth):
 ```python
 from __future__ import print_function
 import time
 import fcsm_eos_api_client
 from fcsm_eos_api_client.rest import ApiException
 from pprint import pprint
+configuration = fcsm_eos_api_client.Configuration()
+# Configure Bearer authorization (JWT): bearerAuth
+configuration.access_token = 'YOUR_BEARER_TOKEN'
 
+# Defining host is optional and default to https://emeia-eos.fcsm.io
+configuration.host = "https://emeia-eos.fcsm.io"
 # Create an instance of the API class
-api_instance = fcsm_eos_api_client.AzureApi()
+api_instance = fcsm_eos_api_client.AzureApi(fcsm_eos_api_client.ApiClient(configuration))
 subscription_id = 'subscription_id_example' # str | ID of subscription
 availability_set_id = 'availability_set_id_example' # str | Availability Set ID
 
@@ -97,7 +103,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[bearerAuth](../README.md#bearerAuth)
 
 ### HTTP request headers
 
@@ -121,15 +127,21 @@ Lists availability sets for specified subscription and resource group
 
 ### Example
 
+* Bearer (JWT) Authentication (bearerAuth):
 ```python
 from __future__ import print_function
 import time
 import fcsm_eos_api_client
 from fcsm_eos_api_client.rest import ApiException
 from pprint import pprint
+configuration = fcsm_eos_api_client.Configuration()
+# Configure Bearer authorization (JWT): bearerAuth
+configuration.access_token = 'YOUR_BEARER_TOKEN'
 
+# Defining host is optional and default to https://emeia-eos.fcsm.io
+configuration.host = "https://emeia-eos.fcsm.io"
 # Create an instance of the API class
-api_instance = fcsm_eos_api_client.AzureApi()
+api_instance = fcsm_eos_api_client.AzureApi(fcsm_eos_api_client.ApiClient(configuration))
 subscription_id = 'subscription_id_example' # str | ID of subscription
 
 try:
@@ -152,7 +164,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[bearerAuth](../README.md#bearerAuth)
 
 ### HTTP request headers
 
@@ -176,15 +188,21 @@ Lists availability zones for specified subscription
 
 ### Example
 
+* Bearer (JWT) Authentication (bearerAuth):
 ```python
 from __future__ import print_function
 import time
 import fcsm_eos_api_client
 from fcsm_eos_api_client.rest import ApiException
 from pprint import pprint
+configuration = fcsm_eos_api_client.Configuration()
+# Configure Bearer authorization (JWT): bearerAuth
+configuration.access_token = 'YOUR_BEARER_TOKEN'
 
+# Defining host is optional and default to https://emeia-eos.fcsm.io
+configuration.host = "https://emeia-eos.fcsm.io"
 # Create an instance of the API class
-api_instance = fcsm_eos_api_client.AzureApi()
+api_instance = fcsm_eos_api_client.AzureApi(fcsm_eos_api_client.ApiClient(configuration))
 subscription_id = 'subscription_id_example' # str | ID of subscription
 
 try:
@@ -207,7 +225,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[bearerAuth](../README.md#bearerAuth)
 
 ### HTTP request headers
 
@@ -230,15 +248,21 @@ Gets a single flavor by ID
 
 ### Example
 
+* Bearer (JWT) Authentication (bearerAuth):
 ```python
 from __future__ import print_function
 import time
 import fcsm_eos_api_client
 from fcsm_eos_api_client.rest import ApiException
 from pprint import pprint
+configuration = fcsm_eos_api_client.Configuration()
+# Configure Bearer authorization (JWT): bearerAuth
+configuration.access_token = 'YOUR_BEARER_TOKEN'
 
+# Defining host is optional and default to https://emeia-eos.fcsm.io
+configuration.host = "https://emeia-eos.fcsm.io"
 # Create an instance of the API class
-api_instance = fcsm_eos_api_client.AzureApi()
+api_instance = fcsm_eos_api_client.AzureApi(fcsm_eos_api_client.ApiClient(configuration))
 subscription_id = 'subscription_id_example' # str | ID of subscription
 flavor_id = 'flavor_id_example' # str | ID of Flavor
 
@@ -263,7 +287,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[bearerAuth](../README.md#bearerAuth)
 
 ### HTTP request headers
 
@@ -287,15 +311,21 @@ Lists flavors for specified subscription
 
 ### Example
 
+* Bearer (JWT) Authentication (bearerAuth):
 ```python
 from __future__ import print_function
 import time
 import fcsm_eos_api_client
 from fcsm_eos_api_client.rest import ApiException
 from pprint import pprint
+configuration = fcsm_eos_api_client.Configuration()
+# Configure Bearer authorization (JWT): bearerAuth
+configuration.access_token = 'YOUR_BEARER_TOKEN'
 
+# Defining host is optional and default to https://emeia-eos.fcsm.io
+configuration.host = "https://emeia-eos.fcsm.io"
 # Create an instance of the API class
-api_instance = fcsm_eos_api_client.AzureApi()
+api_instance = fcsm_eos_api_client.AzureApi(fcsm_eos_api_client.ApiClient(configuration))
 subscription_id = 'subscription_id_example' # str | ID of subscription
 
 try:
@@ -318,7 +348,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[bearerAuth](../README.md#bearerAuth)
 
 ### HTTP request headers
 
@@ -341,15 +371,21 @@ Gets a single image by id
 
 ### Example
 
+* Bearer (JWT) Authentication (bearerAuth):
 ```python
 from __future__ import print_function
 import time
 import fcsm_eos_api_client
 from fcsm_eos_api_client.rest import ApiException
 from pprint import pprint
+configuration = fcsm_eos_api_client.Configuration()
+# Configure Bearer authorization (JWT): bearerAuth
+configuration.access_token = 'YOUR_BEARER_TOKEN'
 
+# Defining host is optional and default to https://emeia-eos.fcsm.io
+configuration.host = "https://emeia-eos.fcsm.io"
 # Create an instance of the API class
-api_instance = fcsm_eos_api_client.AzureApi()
+api_instance = fcsm_eos_api_client.AzureApi(fcsm_eos_api_client.ApiClient(configuration))
 subscription_id = 'subscription_id_example' # str | ID of subscription
 image_id = 'image_id_example' # str | Image id
 
@@ -374,7 +410,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[bearerAuth](../README.md#bearerAuth)
 
 ### HTTP request headers
 
@@ -400,15 +436,21 @@ Lists interfaces for specified subscription
 
 ### Example
 
+* Bearer (JWT) Authentication (bearerAuth):
 ```python
 from __future__ import print_function
 import time
 import fcsm_eos_api_client
 from fcsm_eos_api_client.rest import ApiException
 from pprint import pprint
+configuration = fcsm_eos_api_client.Configuration()
+# Configure Bearer authorization (JWT): bearerAuth
+configuration.access_token = 'YOUR_BEARER_TOKEN'
 
+# Defining host is optional and default to https://emeia-eos.fcsm.io
+configuration.host = "https://emeia-eos.fcsm.io"
 # Create an instance of the API class
-api_instance = fcsm_eos_api_client.AzureApi()
+api_instance = fcsm_eos_api_client.AzureApi(fcsm_eos_api_client.ApiClient(configuration))
 subscription_id = 'subscription_id_example' # str | ID of subscription
 vm_id = 'vm_id_example' # str | Vm id to filter by (optional)
 network_id = 'network_id_example' # str | Network id to filter by (optional)
@@ -437,7 +479,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[bearerAuth](../README.md#bearerAuth)
 
 ### HTTP request headers
 
@@ -462,15 +504,21 @@ Delets a single keypair
 
 ### Example
 
+* Bearer (JWT) Authentication (bearerAuth):
 ```python
 from __future__ import print_function
 import time
 import fcsm_eos_api_client
 from fcsm_eos_api_client.rest import ApiException
 from pprint import pprint
+configuration = fcsm_eos_api_client.Configuration()
+# Configure Bearer authorization (JWT): bearerAuth
+configuration.access_token = 'YOUR_BEARER_TOKEN'
 
+# Defining host is optional and default to https://emeia-eos.fcsm.io
+configuration.host = "https://emeia-eos.fcsm.io"
 # Create an instance of the API class
-api_instance = fcsm_eos_api_client.AzureApi()
+api_instance = fcsm_eos_api_client.AzureApi(fcsm_eos_api_client.ApiClient(configuration))
 subscription_id = 'subscription_id_example' # str | ID of subscription
 keypair_id = 'keypair_id_example' # str | Id of the keypair
 
@@ -494,7 +542,7 @@ void (empty response body)
 
 ### Authorization
 
-No authorization required
+[bearerAuth](../README.md#bearerAuth)
 
 ### HTTP request headers
 
@@ -520,15 +568,21 @@ Generate a new keypair
 
 ### Example
 
+* Bearer (JWT) Authentication (bearerAuth):
 ```python
 from __future__ import print_function
 import time
 import fcsm_eos_api_client
 from fcsm_eos_api_client.rest import ApiException
 from pprint import pprint
+configuration = fcsm_eos_api_client.Configuration()
+# Configure Bearer authorization (JWT): bearerAuth
+configuration.access_token = 'YOUR_BEARER_TOKEN'
 
+# Defining host is optional and default to https://emeia-eos.fcsm.io
+configuration.host = "https://emeia-eos.fcsm.io"
 # Create an instance of the API class
-api_instance = fcsm_eos_api_client.AzureApi()
+api_instance = fcsm_eos_api_client.AzureApi(fcsm_eos_api_client.ApiClient(configuration))
 subscription_id = 'subscription_id_example' # str | ID of subscription
 azure_keypair_generate = fcsm_eos_api_client.AzureKeypairGenerate() # AzureKeypairGenerate | 
 
@@ -553,7 +607,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[bearerAuth](../README.md#bearerAuth)
 
 ### HTTP request headers
 
@@ -579,15 +633,21 @@ Gets a single keypair
 
 ### Example
 
+* Bearer (JWT) Authentication (bearerAuth):
 ```python
 from __future__ import print_function
 import time
 import fcsm_eos_api_client
 from fcsm_eos_api_client.rest import ApiException
 from pprint import pprint
+configuration = fcsm_eos_api_client.Configuration()
+# Configure Bearer authorization (JWT): bearerAuth
+configuration.access_token = 'YOUR_BEARER_TOKEN'
 
+# Defining host is optional and default to https://emeia-eos.fcsm.io
+configuration.host = "https://emeia-eos.fcsm.io"
 # Create an instance of the API class
-api_instance = fcsm_eos_api_client.AzureApi()
+api_instance = fcsm_eos_api_client.AzureApi(fcsm_eos_api_client.ApiClient(configuration))
 subscription_id = 'subscription_id_example' # str | ID of subscription
 keypair_id = 'keypair_id_example' # str | Id of the keypair
 
@@ -612,7 +672,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[bearerAuth](../README.md#bearerAuth)
 
 ### HTTP request headers
 
@@ -638,15 +698,21 @@ Import a public key
 
 ### Example
 
+* Bearer (JWT) Authentication (bearerAuth):
 ```python
 from __future__ import print_function
 import time
 import fcsm_eos_api_client
 from fcsm_eos_api_client.rest import ApiException
 from pprint import pprint
+configuration = fcsm_eos_api_client.Configuration()
+# Configure Bearer authorization (JWT): bearerAuth
+configuration.access_token = 'YOUR_BEARER_TOKEN'
 
+# Defining host is optional and default to https://emeia-eos.fcsm.io
+configuration.host = "https://emeia-eos.fcsm.io"
 # Create an instance of the API class
-api_instance = fcsm_eos_api_client.AzureApi()
+api_instance = fcsm_eos_api_client.AzureApi(fcsm_eos_api_client.ApiClient(configuration))
 subscription_id = 'subscription_id_example' # str | ID of subscription
 azure_keypair_import = fcsm_eos_api_client.AzureKeypairImport() # AzureKeypairImport | 
 
@@ -671,7 +737,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[bearerAuth](../README.md#bearerAuth)
 
 ### HTTP request headers
 
@@ -697,15 +763,21 @@ Lists keypairs
 
 ### Example
 
+* Bearer (JWT) Authentication (bearerAuth):
 ```python
 from __future__ import print_function
 import time
 import fcsm_eos_api_client
 from fcsm_eos_api_client.rest import ApiException
 from pprint import pprint
+configuration = fcsm_eos_api_client.Configuration()
+# Configure Bearer authorization (JWT): bearerAuth
+configuration.access_token = 'YOUR_BEARER_TOKEN'
 
+# Defining host is optional and default to https://emeia-eos.fcsm.io
+configuration.host = "https://emeia-eos.fcsm.io"
 # Create an instance of the API class
-api_instance = fcsm_eos_api_client.AzureApi()
+api_instance = fcsm_eos_api_client.AzureApi(fcsm_eos_api_client.ApiClient(configuration))
 subscription_id = 'subscription_id_example' # str | ID of subscription
 availability_zone = 'default' # str | Availibility zone to filter by (optional) (default to 'default')
 
@@ -730,7 +802,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[bearerAuth](../README.md#bearerAuth)
 
 ### HTTP request headers
 
@@ -755,15 +827,21 @@ Lists subnets for specified network and subscription
 
 ### Example
 
+* Bearer (JWT) Authentication (bearerAuth):
 ```python
 from __future__ import print_function
 import time
 import fcsm_eos_api_client
 from fcsm_eos_api_client.rest import ApiException
 from pprint import pprint
+configuration = fcsm_eos_api_client.Configuration()
+# Configure Bearer authorization (JWT): bearerAuth
+configuration.access_token = 'YOUR_BEARER_TOKEN'
 
+# Defining host is optional and default to https://emeia-eos.fcsm.io
+configuration.host = "https://emeia-eos.fcsm.io"
 # Create an instance of the API class
-api_instance = fcsm_eos_api_client.AzureApi()
+api_instance = fcsm_eos_api_client.AzureApi(fcsm_eos_api_client.ApiClient(configuration))
 subscription_id = 'subscription_id_example' # str | ID of subscription
 network_id = 'network_id_example' # str | ID of network
 availability_zone = 'default' # str | Availibility zone to filter by (optional) (default to 'default')
@@ -790,7 +868,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[bearerAuth](../README.md#bearerAuth)
 
 ### HTTP request headers
 
@@ -816,15 +894,21 @@ List networks for specified subscription
 
 ### Example
 
+* Bearer (JWT) Authentication (bearerAuth):
 ```python
 from __future__ import print_function
 import time
 import fcsm_eos_api_client
 from fcsm_eos_api_client.rest import ApiException
 from pprint import pprint
+configuration = fcsm_eos_api_client.Configuration()
+# Configure Bearer authorization (JWT): bearerAuth
+configuration.access_token = 'YOUR_BEARER_TOKEN'
 
+# Defining host is optional and default to https://emeia-eos.fcsm.io
+configuration.host = "https://emeia-eos.fcsm.io"
 # Create an instance of the API class
-api_instance = fcsm_eos_api_client.AzureApi()
+api_instance = fcsm_eos_api_client.AzureApi(fcsm_eos_api_client.ApiClient(configuration))
 subscription_id = 'subscription_id_example' # str | ID of subscription
 availability_zone = 'default' # str | Availibility zone to filter by (optional) (default to 'default')
 
@@ -849,7 +933,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[bearerAuth](../README.md#bearerAuth)
 
 ### HTTP request headers
 
@@ -874,15 +958,21 @@ Gets a single private image by id
 
 ### Example
 
+* Bearer (JWT) Authentication (bearerAuth):
 ```python
 from __future__ import print_function
 import time
 import fcsm_eos_api_client
 from fcsm_eos_api_client.rest import ApiException
 from pprint import pprint
+configuration = fcsm_eos_api_client.Configuration()
+# Configure Bearer authorization (JWT): bearerAuth
+configuration.access_token = 'YOUR_BEARER_TOKEN'
 
+# Defining host is optional and default to https://emeia-eos.fcsm.io
+configuration.host = "https://emeia-eos.fcsm.io"
 # Create an instance of the API class
-api_instance = fcsm_eos_api_client.AzureApi()
+api_instance = fcsm_eos_api_client.AzureApi(fcsm_eos_api_client.ApiClient(configuration))
 subscription_id = 'subscription_id_example' # str | ID of subscription
 image_id = 'image_id_example' # str | Image id
 
@@ -906,7 +996,7 @@ void (empty response body)
 
 ### Authorization
 
-No authorization required
+[bearerAuth](../README.md#bearerAuth)
 
 ### HTTP request headers
 
@@ -927,15 +1017,21 @@ Lists private images for specified subscription
 
 ### Example
 
+* Bearer (JWT) Authentication (bearerAuth):
 ```python
 from __future__ import print_function
 import time
 import fcsm_eos_api_client
 from fcsm_eos_api_client.rest import ApiException
 from pprint import pprint
+configuration = fcsm_eos_api_client.Configuration()
+# Configure Bearer authorization (JWT): bearerAuth
+configuration.access_token = 'YOUR_BEARER_TOKEN'
 
+# Defining host is optional and default to https://emeia-eos.fcsm.io
+configuration.host = "https://emeia-eos.fcsm.io"
 # Create an instance of the API class
-api_instance = fcsm_eos_api_client.AzureApi()
+api_instance = fcsm_eos_api_client.AzureApi(fcsm_eos_api_client.ApiClient(configuration))
 subscription_id = 'subscription_id_example' # str | ID of subscription
 name = 'name_example' # str | Full/partial name of an image to look for (optional)
 
@@ -960,7 +1056,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[bearerAuth](../README.md#bearerAuth)
 
 ### HTTP request headers
 
@@ -982,15 +1078,21 @@ Gets a single public image by id
 
 ### Example
 
+* Bearer (JWT) Authentication (bearerAuth):
 ```python
 from __future__ import print_function
 import time
 import fcsm_eos_api_client
 from fcsm_eos_api_client.rest import ApiException
 from pprint import pprint
+configuration = fcsm_eos_api_client.Configuration()
+# Configure Bearer authorization (JWT): bearerAuth
+configuration.access_token = 'YOUR_BEARER_TOKEN'
 
+# Defining host is optional and default to https://emeia-eos.fcsm.io
+configuration.host = "https://emeia-eos.fcsm.io"
 # Create an instance of the API class
-api_instance = fcsm_eos_api_client.AzureApi()
+api_instance = fcsm_eos_api_client.AzureApi(fcsm_eos_api_client.ApiClient(configuration))
 subscription_id = 'subscription_id_example' # str | ID of subscription
 image_id = 'image_id_example' # str | Image id
 
@@ -1015,7 +1117,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[bearerAuth](../README.md#bearerAuth)
 
 ### HTTP request headers
 
@@ -1041,15 +1143,21 @@ Lists all public images for specified subscription
 
 ### Example
 
+* Bearer (JWT) Authentication (bearerAuth):
 ```python
 from __future__ import print_function
 import time
 import fcsm_eos_api_client
 from fcsm_eos_api_client.rest import ApiException
 from pprint import pprint
+configuration = fcsm_eos_api_client.Configuration()
+# Configure Bearer authorization (JWT): bearerAuth
+configuration.access_token = 'YOUR_BEARER_TOKEN'
 
+# Defining host is optional and default to https://emeia-eos.fcsm.io
+configuration.host = "https://emeia-eos.fcsm.io"
 # Create an instance of the API class
-api_instance = fcsm_eos_api_client.AzureApi()
+api_instance = fcsm_eos_api_client.AzureApi(fcsm_eos_api_client.ApiClient(configuration))
 subscription_id = 'subscription_id_example' # str | ID of subscription
 name = 'name_example' # str | Full/partial name of an image to look for (optional)
 
@@ -1074,7 +1182,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[bearerAuth](../README.md#bearerAuth)
 
 ### HTTP request headers
 
@@ -1098,15 +1206,21 @@ If subscriptionId is not passed as query parameters endpoint returns list of reg
 
 ### Example
 
+* Bearer (JWT) Authentication (bearerAuth):
 ```python
 from __future__ import print_function
 import time
 import fcsm_eos_api_client
 from fcsm_eos_api_client.rest import ApiException
 from pprint import pprint
+configuration = fcsm_eos_api_client.Configuration()
+# Configure Bearer authorization (JWT): bearerAuth
+configuration.access_token = 'YOUR_BEARER_TOKEN'
 
+# Defining host is optional and default to https://emeia-eos.fcsm.io
+configuration.host = "https://emeia-eos.fcsm.io"
 # Create an instance of the API class
-api_instance = fcsm_eos_api_client.AzureApi()
+api_instance = fcsm_eos_api_client.AzureApi(fcsm_eos_api_client.ApiClient(configuration))
 subscription_id = 'subscription_id_example' # str | Optional ID of subscription (optional)
 
 try:
@@ -1129,7 +1243,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[bearerAuth](../README.md#bearerAuth)
 
 ### HTTP request headers
 
@@ -1151,15 +1265,21 @@ Lists resource groups
 
 ### Example
 
+* Bearer (JWT) Authentication (bearerAuth):
 ```python
 from __future__ import print_function
 import time
 import fcsm_eos_api_client
 from fcsm_eos_api_client.rest import ApiException
 from pprint import pprint
+configuration = fcsm_eos_api_client.Configuration()
+# Configure Bearer authorization (JWT): bearerAuth
+configuration.access_token = 'YOUR_BEARER_TOKEN'
 
+# Defining host is optional and default to https://emeia-eos.fcsm.io
+configuration.host = "https://emeia-eos.fcsm.io"
 # Create an instance of the API class
-api_instance = fcsm_eos_api_client.AzureApi()
+api_instance = fcsm_eos_api_client.AzureApi(fcsm_eos_api_client.ApiClient(configuration))
 subscription_id = 'subscription_id_example' # str | ID of subscription
 
 try:
@@ -1182,7 +1302,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[bearerAuth](../README.md#bearerAuth)
 
 ### HTTP request headers
 
@@ -1205,15 +1325,21 @@ Creates new resource group
 
 ### Example
 
+* Bearer (JWT) Authentication (bearerAuth):
 ```python
 from __future__ import print_function
 import time
 import fcsm_eos_api_client
 from fcsm_eos_api_client.rest import ApiException
 from pprint import pprint
+configuration = fcsm_eos_api_client.Configuration()
+# Configure Bearer authorization (JWT): bearerAuth
+configuration.access_token = 'YOUR_BEARER_TOKEN'
 
+# Defining host is optional and default to https://emeia-eos.fcsm.io
+configuration.host = "https://emeia-eos.fcsm.io"
 # Create an instance of the API class
-api_instance = fcsm_eos_api_client.AzureApi()
+api_instance = fcsm_eos_api_client.AzureApi(fcsm_eos_api_client.ApiClient(configuration))
 subscription_id = 'subscription_id_example' # str | ID of subscription
 azure_create_resource_group = fcsm_eos_api_client.AzureCreateResourceGroup() # AzureCreateResourceGroup | 
 
@@ -1238,7 +1364,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[bearerAuth](../README.md#bearerAuth)
 
 ### HTTP request headers
 
@@ -1264,15 +1390,21 @@ Lists security groups for specified subscription
 
 ### Example
 
+* Bearer (JWT) Authentication (bearerAuth):
 ```python
 from __future__ import print_function
 import time
 import fcsm_eos_api_client
 from fcsm_eos_api_client.rest import ApiException
 from pprint import pprint
+configuration = fcsm_eos_api_client.Configuration()
+# Configure Bearer authorization (JWT): bearerAuth
+configuration.access_token = 'YOUR_BEARER_TOKEN'
 
+# Defining host is optional and default to https://emeia-eos.fcsm.io
+configuration.host = "https://emeia-eos.fcsm.io"
 # Create an instance of the API class
-api_instance = fcsm_eos_api_client.AzureApi()
+api_instance = fcsm_eos_api_client.AzureApi(fcsm_eos_api_client.ApiClient(configuration))
 subscription_id = 'subscription_id_example' # str | ID of subscription
 vm_id = 'vm_id_example' # str | Vm id to filter by (optional)
 
@@ -1297,7 +1429,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[bearerAuth](../README.md#bearerAuth)
 
 ### HTTP request headers
 
@@ -1322,15 +1454,21 @@ Delete snapshot
 
 ### Example
 
+* Bearer (JWT) Authentication (bearerAuth):
 ```python
 from __future__ import print_function
 import time
 import fcsm_eos_api_client
 from fcsm_eos_api_client.rest import ApiException
 from pprint import pprint
+configuration = fcsm_eos_api_client.Configuration()
+# Configure Bearer authorization (JWT): bearerAuth
+configuration.access_token = 'YOUR_BEARER_TOKEN'
 
+# Defining host is optional and default to https://emeia-eos.fcsm.io
+configuration.host = "https://emeia-eos.fcsm.io"
 # Create an instance of the API class
-api_instance = fcsm_eos_api_client.AzureApi()
+api_instance = fcsm_eos_api_client.AzureApi(fcsm_eos_api_client.ApiClient(configuration))
 subscription_id = 'subscription_id_example' # str | ID of subscription
 snapshot_id = 'snapshot_id_example' # str | snapshot ID
 
@@ -1354,7 +1492,7 @@ void (empty response body)
 
 ### Authorization
 
-No authorization required
+[bearerAuth](../README.md#bearerAuth)
 
 ### HTTP request headers
 
@@ -1379,15 +1517,21 @@ Get list of all snapshots
 
 ### Example
 
+* Bearer (JWT) Authentication (bearerAuth):
 ```python
 from __future__ import print_function
 import time
 import fcsm_eos_api_client
 from fcsm_eos_api_client.rest import ApiException
 from pprint import pprint
+configuration = fcsm_eos_api_client.Configuration()
+# Configure Bearer authorization (JWT): bearerAuth
+configuration.access_token = 'YOUR_BEARER_TOKEN'
 
+# Defining host is optional and default to https://emeia-eos.fcsm.io
+configuration.host = "https://emeia-eos.fcsm.io"
 # Create an instance of the API class
-api_instance = fcsm_eos_api_client.AzureApi()
+api_instance = fcsm_eos_api_client.AzureApi(fcsm_eos_api_client.ApiClient(configuration))
 subscription_id = 'subscription_id_example' # str | ID of subscription
 vm_id = 'vm_id_example' # str | Vm id to filter by (optional)
 
@@ -1412,7 +1556,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[bearerAuth](../README.md#bearerAuth)
 
 ### HTTP request headers
 
@@ -1437,15 +1581,21 @@ Create a new snapshot
 
 ### Example
 
+* Bearer (JWT) Authentication (bearerAuth):
 ```python
 from __future__ import print_function
 import time
 import fcsm_eos_api_client
 from fcsm_eos_api_client.rest import ApiException
 from pprint import pprint
+configuration = fcsm_eos_api_client.Configuration()
+# Configure Bearer authorization (JWT): bearerAuth
+configuration.access_token = 'YOUR_BEARER_TOKEN'
 
+# Defining host is optional and default to https://emeia-eos.fcsm.io
+configuration.host = "https://emeia-eos.fcsm.io"
 # Create an instance of the API class
-api_instance = fcsm_eos_api_client.AzureApi()
+api_instance = fcsm_eos_api_client.AzureApi(fcsm_eos_api_client.ApiClient(configuration))
 subscription_id = 'subscription_id_example' # str | ID of subscription
 azure_create_snapshot = fcsm_eos_api_client.AzureCreateSnapshot() # AzureCreateSnapshot | A create snapshot object
 
@@ -1470,7 +1620,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[bearerAuth](../README.md#bearerAuth)
 
 ### HTTP request headers
 
@@ -1496,15 +1646,21 @@ Validate subscription credentials
 
 ### Example
 
+* Bearer (JWT) Authentication (bearerAuth):
 ```python
 from __future__ import print_function
 import time
 import fcsm_eos_api_client
 from fcsm_eos_api_client.rest import ApiException
 from pprint import pprint
+configuration = fcsm_eos_api_client.Configuration()
+# Configure Bearer authorization (JWT): bearerAuth
+configuration.access_token = 'YOUR_BEARER_TOKEN'
 
+# Defining host is optional and default to https://emeia-eos.fcsm.io
+configuration.host = "https://emeia-eos.fcsm.io"
 # Create an instance of the API class
-api_instance = fcsm_eos_api_client.AzureApi()
+api_instance = fcsm_eos_api_client.AzureApi(fcsm_eos_api_client.ApiClient(configuration))
 azure_subscription = fcsm_eos_api_client.AzureSubscription() # AzureSubscription | 
 
 try:
@@ -1526,7 +1682,7 @@ void (empty response body)
 
 ### Authorization
 
-No authorization required
+[bearerAuth](../README.md#bearerAuth)
 
 ### HTTP request headers
 
@@ -1555,15 +1711,21 @@ Executes power action on a VM. Only specified VMPowerAction are allowed.
 
 ### Example
 
+* Bearer (JWT) Authentication (bearerAuth):
 ```python
 from __future__ import print_function
 import time
 import fcsm_eos_api_client
 from fcsm_eos_api_client.rest import ApiException
 from pprint import pprint
+configuration = fcsm_eos_api_client.Configuration()
+# Configure Bearer authorization (JWT): bearerAuth
+configuration.access_token = 'YOUR_BEARER_TOKEN'
 
+# Defining host is optional and default to https://emeia-eos.fcsm.io
+configuration.host = "https://emeia-eos.fcsm.io"
 # Create an instance of the API class
-api_instance = fcsm_eos_api_client.AzureApi()
+api_instance = fcsm_eos_api_client.AzureApi(fcsm_eos_api_client.ApiClient(configuration))
 subscription_id = 'subscription_id_example' # str | ID of subscription
 vm_id = 'vm_id_example' # str | ID of VM
 action = fcsm_eos_api_client.AzureVMPowerAction() # AzureVMPowerAction | Commands for the VM
@@ -1589,7 +1751,7 @@ void (empty response body)
 
 ### Authorization
 
-No authorization required
+[bearerAuth](../README.md#bearerAuth)
 
 ### HTTP request headers
 
@@ -1619,15 +1781,21 @@ Endpoint takes care of deleting the virtual machine from the platform. It also r
 
 ### Example
 
+* Bearer (JWT) Authentication (bearerAuth):
 ```python
 from __future__ import print_function
 import time
 import fcsm_eos_api_client
 from fcsm_eos_api_client.rest import ApiException
 from pprint import pprint
+configuration = fcsm_eos_api_client.Configuration()
+# Configure Bearer authorization (JWT): bearerAuth
+configuration.access_token = 'YOUR_BEARER_TOKEN'
 
+# Defining host is optional and default to https://emeia-eos.fcsm.io
+configuration.host = "https://emeia-eos.fcsm.io"
 # Create an instance of the API class
-api_instance = fcsm_eos_api_client.AzureApi()
+api_instance = fcsm_eos_api_client.AzureApi(fcsm_eos_api_client.ApiClient(configuration))
 subscription_id = 'subscription_id_example' # str | ID of subscription
 vm_id = 'vm_id_example' # str | ID of VM
 
@@ -1651,7 +1819,7 @@ void (empty response body)
 
 ### Authorization
 
-No authorization required
+[bearerAuth](../README.md#bearerAuth)
 
 ### HTTP request headers
 
@@ -1678,15 +1846,21 @@ If specified virtual machine is provision with enabled management details will c
 
 ### Example
 
+* Bearer (JWT) Authentication (bearerAuth):
 ```python
 from __future__ import print_function
 import time
 import fcsm_eos_api_client
 from fcsm_eos_api_client.rest import ApiException
 from pprint import pprint
+configuration = fcsm_eos_api_client.Configuration()
+# Configure Bearer authorization (JWT): bearerAuth
+configuration.access_token = 'YOUR_BEARER_TOKEN'
 
+# Defining host is optional and default to https://emeia-eos.fcsm.io
+configuration.host = "https://emeia-eos.fcsm.io"
 # Create an instance of the API class
-api_instance = fcsm_eos_api_client.AzureApi()
+api_instance = fcsm_eos_api_client.AzureApi(fcsm_eos_api_client.ApiClient(configuration))
 subscription_id = 'subscription_id_example' # str | ID of subscription
 vm_id = 'vm_id_example' # str | ID of VM
 
@@ -1711,7 +1885,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[bearerAuth](../README.md#bearerAuth)
 
 ### HTTP request headers
 
@@ -1739,15 +1913,21 @@ Unassigns floating public IP from specified VM
 
 ### Example
 
+* Bearer (JWT) Authentication (bearerAuth):
 ```python
 from __future__ import print_function
 import time
 import fcsm_eos_api_client
 from fcsm_eos_api_client.rest import ApiException
 from pprint import pprint
+configuration = fcsm_eos_api_client.Configuration()
+# Configure Bearer authorization (JWT): bearerAuth
+configuration.access_token = 'YOUR_BEARER_TOKEN'
 
+# Defining host is optional and default to https://emeia-eos.fcsm.io
+configuration.host = "https://emeia-eos.fcsm.io"
 # Create an instance of the API class
-api_instance = fcsm_eos_api_client.AzureApi()
+api_instance = fcsm_eos_api_client.AzureApi(fcsm_eos_api_client.ApiClient(configuration))
 subscription_id = 'subscription_id_example' # str | ID of subscription
 vm_id = 'vm_id_example' # str | ID of VM
 
@@ -1771,7 +1951,7 @@ void (empty response body)
 
 ### Authorization
 
-No authorization required
+[bearerAuth](../README.md#bearerAuth)
 
 ### HTTP request headers
 
@@ -1797,15 +1977,21 @@ Assigns a floating public IP v4 to specified VM
 
 ### Example
 
+* Bearer (JWT) Authentication (bearerAuth):
 ```python
 from __future__ import print_function
 import time
 import fcsm_eos_api_client
 from fcsm_eos_api_client.rest import ApiException
 from pprint import pprint
+configuration = fcsm_eos_api_client.Configuration()
+# Configure Bearer authorization (JWT): bearerAuth
+configuration.access_token = 'YOUR_BEARER_TOKEN'
 
+# Defining host is optional and default to https://emeia-eos.fcsm.io
+configuration.host = "https://emeia-eos.fcsm.io"
 # Create an instance of the API class
-api_instance = fcsm_eos_api_client.AzureApi()
+api_instance = fcsm_eos_api_client.AzureApi(fcsm_eos_api_client.ApiClient(configuration))
 subscription_id = 'subscription_id_example' # str | ID of subscription
 vm_id = 'vm_id_example' # str | ID of VM
 
@@ -1830,7 +2016,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[bearerAuth](../README.md#bearerAuth)
 
 ### HTTP request headers
 
@@ -1856,15 +2042,21 @@ Gets a single virtual machine by ID
 
 ### Example
 
+* Bearer (JWT) Authentication (bearerAuth):
 ```python
 from __future__ import print_function
 import time
 import fcsm_eos_api_client
 from fcsm_eos_api_client.rest import ApiException
 from pprint import pprint
+configuration = fcsm_eos_api_client.Configuration()
+# Configure Bearer authorization (JWT): bearerAuth
+configuration.access_token = 'YOUR_BEARER_TOKEN'
 
+# Defining host is optional and default to https://emeia-eos.fcsm.io
+configuration.host = "https://emeia-eos.fcsm.io"
 # Create an instance of the API class
-api_instance = fcsm_eos_api_client.AzureApi()
+api_instance = fcsm_eos_api_client.AzureApi(fcsm_eos_api_client.ApiClient(configuration))
 subscription_id = 'subscription_id_example' # str | ID of subscription
 vm_id = 'vm_id_example' # str | ID of VM
 
@@ -1889,7 +2081,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[bearerAuth](../README.md#bearerAuth)
 
 ### HTTP request headers
 
@@ -1915,15 +2107,21 @@ Gets specified virtual machine management status
 
 ### Example
 
+* Bearer (JWT) Authentication (bearerAuth):
 ```python
 from __future__ import print_function
 import time
 import fcsm_eos_api_client
 from fcsm_eos_api_client.rest import ApiException
 from pprint import pprint
+configuration = fcsm_eos_api_client.Configuration()
+# Configure Bearer authorization (JWT): bearerAuth
+configuration.access_token = 'YOUR_BEARER_TOKEN'
 
+# Defining host is optional and default to https://emeia-eos.fcsm.io
+configuration.host = "https://emeia-eos.fcsm.io"
 # Create an instance of the API class
-api_instance = fcsm_eos_api_client.AzureApi()
+api_instance = fcsm_eos_api_client.AzureApi(fcsm_eos_api_client.ApiClient(configuration))
 subscription_id = 'subscription_id_example' # str | ID of subscription
 vm_id = 'vm_id_example' # str | ID of VM
 
@@ -1948,7 +2146,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[bearerAuth](../README.md#bearerAuth)
 
 ### HTTP request headers
 
@@ -1973,15 +2171,21 @@ Gets specified virtual machine encrypted password
 
 ### Example
 
+* Bearer (JWT) Authentication (bearerAuth):
 ```python
 from __future__ import print_function
 import time
 import fcsm_eos_api_client
 from fcsm_eos_api_client.rest import ApiException
 from pprint import pprint
+configuration = fcsm_eos_api_client.Configuration()
+# Configure Bearer authorization (JWT): bearerAuth
+configuration.access_token = 'YOUR_BEARER_TOKEN'
 
+# Defining host is optional and default to https://emeia-eos.fcsm.io
+configuration.host = "https://emeia-eos.fcsm.io"
 # Create an instance of the API class
-api_instance = fcsm_eos_api_client.AzureApi()
+api_instance = fcsm_eos_api_client.AzureApi(fcsm_eos_api_client.ApiClient(configuration))
 subscription_id = 'subscription_id_example' # str | ID of subscription
 vm_id = 'vm_id_example' # str | ID of VM
 
@@ -2006,7 +2210,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[bearerAuth](../README.md#bearerAuth)
 
 ### HTTP request headers
 
@@ -2032,15 +2236,21 @@ Modifies specified virtual machine
 
 ### Example
 
+* Bearer (JWT) Authentication (bearerAuth):
 ```python
 from __future__ import print_function
 import time
 import fcsm_eos_api_client
 from fcsm_eos_api_client.rest import ApiException
 from pprint import pprint
+configuration = fcsm_eos_api_client.Configuration()
+# Configure Bearer authorization (JWT): bearerAuth
+configuration.access_token = 'YOUR_BEARER_TOKEN'
 
+# Defining host is optional and default to https://emeia-eos.fcsm.io
+configuration.host = "https://emeia-eos.fcsm.io"
 # Create an instance of the API class
-api_instance = fcsm_eos_api_client.AzureApi()
+api_instance = fcsm_eos_api_client.AzureApi(fcsm_eos_api_client.ApiClient(configuration))
 subscription_id = 'subscription_id_example' # str | ID of subscription
 vm_id = 'vm_id_example' # str | ID of VM
 azure_vm_patch = fcsm_eos_api_client.AzureVMPatch() # AzureVMPatch | Virtual machine object to modify (optional)
@@ -2066,7 +2276,7 @@ void (empty response body)
 
 ### Authorization
 
-No authorization required
+[bearerAuth](../README.md#bearerAuth)
 
 ### HTTP request headers
 
@@ -2092,15 +2302,21 @@ Unassigns specified security group from specified VM
 
 ### Example
 
+* Bearer (JWT) Authentication (bearerAuth):
 ```python
 from __future__ import print_function
 import time
 import fcsm_eos_api_client
 from fcsm_eos_api_client.rest import ApiException
 from pprint import pprint
+configuration = fcsm_eos_api_client.Configuration()
+# Configure Bearer authorization (JWT): bearerAuth
+configuration.access_token = 'YOUR_BEARER_TOKEN'
 
+# Defining host is optional and default to https://emeia-eos.fcsm.io
+configuration.host = "https://emeia-eos.fcsm.io"
 # Create an instance of the API class
-api_instance = fcsm_eos_api_client.AzureApi()
+api_instance = fcsm_eos_api_client.AzureApi(fcsm_eos_api_client.ApiClient(configuration))
 subscription_id = 'subscription_id_example' # str | ID of subscription
 vm_id = 'vm_id_example' # str | ID of VM
 security_group_id = 'security_group_id_example' # str | Security group id
@@ -2126,7 +2342,7 @@ void (empty response body)
 
 ### Authorization
 
-No authorization required
+[bearerAuth](../README.md#bearerAuth)
 
 ### HTTP request headers
 
@@ -2153,15 +2369,21 @@ Assigns a new network security group and unassigns old one
 
 ### Example
 
+* Bearer (JWT) Authentication (bearerAuth):
 ```python
 from __future__ import print_function
 import time
 import fcsm_eos_api_client
 from fcsm_eos_api_client.rest import ApiException
 from pprint import pprint
+configuration = fcsm_eos_api_client.Configuration()
+# Configure Bearer authorization (JWT): bearerAuth
+configuration.access_token = 'YOUR_BEARER_TOKEN'
 
+# Defining host is optional and default to https://emeia-eos.fcsm.io
+configuration.host = "https://emeia-eos.fcsm.io"
 # Create an instance of the API class
-api_instance = fcsm_eos_api_client.AzureApi()
+api_instance = fcsm_eos_api_client.AzureApi(fcsm_eos_api_client.ApiClient(configuration))
 subscription_id = 'subscription_id_example' # str | ID of subscription
 vm_id = 'vm_id_example' # str | ID of VM
 security_group_id = 'security_group_id_example' # str | Security group id
@@ -2187,7 +2409,7 @@ void (empty response body)
 
 ### Authorization
 
-No authorization required
+[bearerAuth](../README.md#bearerAuth)
 
 ### HTTP request headers
 
@@ -2214,15 +2436,21 @@ Sets/unsets tag in virtual machine
 
 ### Example
 
+* Bearer (JWT) Authentication (bearerAuth):
 ```python
 from __future__ import print_function
 import time
 import fcsm_eos_api_client
 from fcsm_eos_api_client.rest import ApiException
 from pprint import pprint
+configuration = fcsm_eos_api_client.Configuration()
+# Configure Bearer authorization (JWT): bearerAuth
+configuration.access_token = 'YOUR_BEARER_TOKEN'
 
+# Defining host is optional and default to https://emeia-eos.fcsm.io
+configuration.host = "https://emeia-eos.fcsm.io"
 # Create an instance of the API class
-api_instance = fcsm_eos_api_client.AzureApi()
+api_instance = fcsm_eos_api_client.AzureApi(fcsm_eos_api_client.ApiClient(configuration))
 subscription_id = 'subscription_id_example' # str | ID of subscription
 vm_id = 'vm_id_example' # str | ID of VM
 azure_tag_update = fcsm_eos_api_client.AzureTagUpdate() # AzureTagUpdate | 
@@ -2248,7 +2476,7 @@ void (empty response body)
 
 ### Authorization
 
-No authorization required
+[bearerAuth](../README.md#bearerAuth)
 
 ### HTTP request headers
 
@@ -2276,15 +2504,21 @@ Delete VM Workshift
 
 ### Example
 
+* Bearer (JWT) Authentication (bearerAuth):
 ```python
 from __future__ import print_function
 import time
 import fcsm_eos_api_client
 from fcsm_eos_api_client.rest import ApiException
 from pprint import pprint
+configuration = fcsm_eos_api_client.Configuration()
+# Configure Bearer authorization (JWT): bearerAuth
+configuration.access_token = 'YOUR_BEARER_TOKEN'
 
+# Defining host is optional and default to https://emeia-eos.fcsm.io
+configuration.host = "https://emeia-eos.fcsm.io"
 # Create an instance of the API class
-api_instance = fcsm_eos_api_client.AzureApi()
+api_instance = fcsm_eos_api_client.AzureApi(fcsm_eos_api_client.ApiClient(configuration))
 subscription_id = 'subscription_id_example' # str | ID of subscription
 vm_id = 'vm_id_example' # str | ID of VM
 
@@ -2308,7 +2542,7 @@ void (empty response body)
 
 ### Authorization
 
-No authorization required
+[bearerAuth](../README.md#bearerAuth)
 
 ### HTTP request headers
 
@@ -2334,15 +2568,21 @@ Create a VM Workshift
 
 ### Example
 
+* Bearer (JWT) Authentication (bearerAuth):
 ```python
 from __future__ import print_function
 import time
 import fcsm_eos_api_client
 from fcsm_eos_api_client.rest import ApiException
 from pprint import pprint
+configuration = fcsm_eos_api_client.Configuration()
+# Configure Bearer authorization (JWT): bearerAuth
+configuration.access_token = 'YOUR_BEARER_TOKEN'
 
+# Defining host is optional and default to https://emeia-eos.fcsm.io
+configuration.host = "https://emeia-eos.fcsm.io"
 # Create an instance of the API class
-api_instance = fcsm_eos_api_client.AzureApi()
+api_instance = fcsm_eos_api_client.AzureApi(fcsm_eos_api_client.ApiClient(configuration))
 subscription_id = 'subscription_id_example' # str | ID of subscription
 vm_id = 'vm_id_example' # str | ID of VM
 azure_workshift = fcsm_eos_api_client.AzureWorkshift() # AzureWorkshift | Workshift object
@@ -2369,7 +2609,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[bearerAuth](../README.md#bearerAuth)
 
 ### HTTP request headers
 
@@ -2395,15 +2635,21 @@ Update a VM Workshift
 
 ### Example
 
+* Bearer (JWT) Authentication (bearerAuth):
 ```python
 from __future__ import print_function
 import time
 import fcsm_eos_api_client
 from fcsm_eos_api_client.rest import ApiException
 from pprint import pprint
+configuration = fcsm_eos_api_client.Configuration()
+# Configure Bearer authorization (JWT): bearerAuth
+configuration.access_token = 'YOUR_BEARER_TOKEN'
 
+# Defining host is optional and default to https://emeia-eos.fcsm.io
+configuration.host = "https://emeia-eos.fcsm.io"
 # Create an instance of the API class
-api_instance = fcsm_eos_api_client.AzureApi()
+api_instance = fcsm_eos_api_client.AzureApi(fcsm_eos_api_client.ApiClient(configuration))
 subscription_id = 'subscription_id_example' # str | ID of subscription
 vm_id = 'vm_id_example' # str | ID of VM
 azure_workshift = fcsm_eos_api_client.AzureWorkshift() # AzureWorkshift | Workshift object
@@ -2430,7 +2676,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[bearerAuth](../README.md#bearerAuth)
 
 ### HTTP request headers
 
@@ -2454,15 +2700,21 @@ Lists virtual machines for specified subscription
 
 ### Example
 
+* Bearer (JWT) Authentication (bearerAuth):
 ```python
 from __future__ import print_function
 import time
 import fcsm_eos_api_client
 from fcsm_eos_api_client.rest import ApiException
 from pprint import pprint
+configuration = fcsm_eos_api_client.Configuration()
+# Configure Bearer authorization (JWT): bearerAuth
+configuration.access_token = 'YOUR_BEARER_TOKEN'
 
+# Defining host is optional and default to https://emeia-eos.fcsm.io
+configuration.host = "https://emeia-eos.fcsm.io"
 # Create an instance of the API class
-api_instance = fcsm_eos_api_client.AzureApi()
+api_instance = fcsm_eos_api_client.AzureApi(fcsm_eos_api_client.ApiClient(configuration))
 subscription_id = 'subscription_id_example' # str | ID of subscription
 availability_set_id = 'availability_set_id_example' # str | Availability Set ID (optional)
 availability_zone_id = 'default' # str | Availibility zone id to filter by (optional) (default to 'default')
@@ -2489,7 +2741,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[bearerAuth](../README.md#bearerAuth)
 
 ### HTTP request headers
 
@@ -2517,15 +2769,21 @@ May provision managed or unmanaged virtual machine in accordance to the `managem
 
 ### Example
 
+* Bearer (JWT) Authentication (bearerAuth):
 ```python
 from __future__ import print_function
 import time
 import fcsm_eos_api_client
 from fcsm_eos_api_client.rest import ApiException
 from pprint import pprint
+configuration = fcsm_eos_api_client.Configuration()
+# Configure Bearer authorization (JWT): bearerAuth
+configuration.access_token = 'YOUR_BEARER_TOKEN'
 
+# Defining host is optional and default to https://emeia-eos.fcsm.io
+configuration.host = "https://emeia-eos.fcsm.io"
 # Create an instance of the API class
-api_instance = fcsm_eos_api_client.AzureApi()
+api_instance = fcsm_eos_api_client.AzureApi(fcsm_eos_api_client.ApiClient(configuration))
 subscription_id = 'subscription_id_example' # str | ID of subscription
 azure_vm_create_data = fcsm_eos_api_client.AzureVMCreateData() # AzureVMCreateData | Parameters for the new virtual machine (optional)
 
@@ -2550,7 +2808,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[bearerAuth](../README.md#bearerAuth)
 
 ### HTTP request headers
 
@@ -2573,15 +2831,21 @@ Dettaches volume
 
 ### Example
 
+* Bearer (JWT) Authentication (bearerAuth):
 ```python
 from __future__ import print_function
 import time
 import fcsm_eos_api_client
 from fcsm_eos_api_client.rest import ApiException
 from pprint import pprint
+configuration = fcsm_eos_api_client.Configuration()
+# Configure Bearer authorization (JWT): bearerAuth
+configuration.access_token = 'YOUR_BEARER_TOKEN'
 
+# Defining host is optional and default to https://emeia-eos.fcsm.io
+configuration.host = "https://emeia-eos.fcsm.io"
 # Create an instance of the API class
-api_instance = fcsm_eos_api_client.AzureApi()
+api_instance = fcsm_eos_api_client.AzureApi(fcsm_eos_api_client.ApiClient(configuration))
 subscription_id = 'subscription_id_example' # str | ID of subscription
 volume_id = 'volume_id_example' # str | ID of Volume
 vm_id = 'vm_id_example' # str | ID of VM in query string
@@ -2607,7 +2871,7 @@ void (empty response body)
 
 ### Authorization
 
-No authorization required
+[bearerAuth](../README.md#bearerAuth)
 
 ### HTTP request headers
 
@@ -2634,15 +2898,21 @@ Attaches volume
 
 ### Example
 
+* Bearer (JWT) Authentication (bearerAuth):
 ```python
 from __future__ import print_function
 import time
 import fcsm_eos_api_client
 from fcsm_eos_api_client.rest import ApiException
 from pprint import pprint
+configuration = fcsm_eos_api_client.Configuration()
+# Configure Bearer authorization (JWT): bearerAuth
+configuration.access_token = 'YOUR_BEARER_TOKEN'
 
+# Defining host is optional and default to https://emeia-eos.fcsm.io
+configuration.host = "https://emeia-eos.fcsm.io"
 # Create an instance of the API class
-api_instance = fcsm_eos_api_client.AzureApi()
+api_instance = fcsm_eos_api_client.AzureApi(fcsm_eos_api_client.ApiClient(configuration))
 subscription_id = 'subscription_id_example' # str | ID of subscription
 volume_id = 'volume_id_example' # str | ID of Volume
 vm_id = 'vm_id_example' # str | ID of VM in query string
@@ -2669,7 +2939,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[bearerAuth](../README.md#bearerAuth)
 
 ### HTTP request headers
 
@@ -2696,15 +2966,21 @@ Removes volume
 
 ### Example
 
+* Bearer (JWT) Authentication (bearerAuth):
 ```python
 from __future__ import print_function
 import time
 import fcsm_eos_api_client
 from fcsm_eos_api_client.rest import ApiException
 from pprint import pprint
+configuration = fcsm_eos_api_client.Configuration()
+# Configure Bearer authorization (JWT): bearerAuth
+configuration.access_token = 'YOUR_BEARER_TOKEN'
 
+# Defining host is optional and default to https://emeia-eos.fcsm.io
+configuration.host = "https://emeia-eos.fcsm.io"
 # Create an instance of the API class
-api_instance = fcsm_eos_api_client.AzureApi()
+api_instance = fcsm_eos_api_client.AzureApi(fcsm_eos_api_client.ApiClient(configuration))
 subscription_id = 'subscription_id_example' # str | ID of subscription
 volume_id = 'volume_id_example' # str | ID of Volume
 
@@ -2728,7 +3004,7 @@ void (empty response body)
 
 ### Authorization
 
-No authorization required
+[bearerAuth](../README.md#bearerAuth)
 
 ### HTTP request headers
 
@@ -2756,15 +3032,21 @@ Gets a single volume by ID
 
 ### Example
 
+* Bearer (JWT) Authentication (bearerAuth):
 ```python
 from __future__ import print_function
 import time
 import fcsm_eos_api_client
 from fcsm_eos_api_client.rest import ApiException
 from pprint import pprint
+configuration = fcsm_eos_api_client.Configuration()
+# Configure Bearer authorization (JWT): bearerAuth
+configuration.access_token = 'YOUR_BEARER_TOKEN'
 
+# Defining host is optional and default to https://emeia-eos.fcsm.io
+configuration.host = "https://emeia-eos.fcsm.io"
 # Create an instance of the API class
-api_instance = fcsm_eos_api_client.AzureApi()
+api_instance = fcsm_eos_api_client.AzureApi(fcsm_eos_api_client.ApiClient(configuration))
 subscription_id = 'subscription_id_example' # str | ID of subscription
 volume_id = 'volume_id_example' # str | ID of Volume
 
@@ -2789,7 +3071,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[bearerAuth](../README.md#bearerAuth)
 
 ### HTTP request headers
 
@@ -2815,15 +3097,21 @@ Modify volume properties
 
 ### Example
 
+* Bearer (JWT) Authentication (bearerAuth):
 ```python
 from __future__ import print_function
 import time
 import fcsm_eos_api_client
 from fcsm_eos_api_client.rest import ApiException
 from pprint import pprint
+configuration = fcsm_eos_api_client.Configuration()
+# Configure Bearer authorization (JWT): bearerAuth
+configuration.access_token = 'YOUR_BEARER_TOKEN'
 
+# Defining host is optional and default to https://emeia-eos.fcsm.io
+configuration.host = "https://emeia-eos.fcsm.io"
 # Create an instance of the API class
-api_instance = fcsm_eos_api_client.AzureApi()
+api_instance = fcsm_eos_api_client.AzureApi(fcsm_eos_api_client.ApiClient(configuration))
 subscription_id = 'subscription_id_example' # str | ID of subscription
 volume_id = 'volume_id_example' # str | ID of Volume
 azure_patch_volume = fcsm_eos_api_client.AzurePatchVolume() # AzurePatchVolume | 
@@ -2849,7 +3137,7 @@ void (empty response body)
 
 ### Authorization
 
-No authorization required
+[bearerAuth](../README.md#bearerAuth)
 
 ### HTTP request headers
 
@@ -2877,15 +3165,21 @@ Lists volume types
 
 ### Example
 
+* Bearer (JWT) Authentication (bearerAuth):
 ```python
 from __future__ import print_function
 import time
 import fcsm_eos_api_client
 from fcsm_eos_api_client.rest import ApiException
 from pprint import pprint
+configuration = fcsm_eos_api_client.Configuration()
+# Configure Bearer authorization (JWT): bearerAuth
+configuration.access_token = 'YOUR_BEARER_TOKEN'
 
+# Defining host is optional and default to https://emeia-eos.fcsm.io
+configuration.host = "https://emeia-eos.fcsm.io"
 # Create an instance of the API class
-api_instance = fcsm_eos_api_client.AzureApi()
+api_instance = fcsm_eos_api_client.AzureApi(fcsm_eos_api_client.ApiClient(configuration))
 subscription_id = 'subscription_id_example' # str | ID of subscription
 is_os_compatible = True # bool | Filter volumes by OS compatibility (optional)
 availability_zone_id = 'default' # str | Availibility zone id to filter by (optional) (default to 'default')
@@ -2912,7 +3206,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[bearerAuth](../README.md#bearerAuth)
 
 ### HTTP request headers
 
@@ -2937,15 +3231,21 @@ Lists volumes for specified subscription
 
 ### Example
 
+* Bearer (JWT) Authentication (bearerAuth):
 ```python
 from __future__ import print_function
 import time
 import fcsm_eos_api_client
 from fcsm_eos_api_client.rest import ApiException
 from pprint import pprint
+configuration = fcsm_eos_api_client.Configuration()
+# Configure Bearer authorization (JWT): bearerAuth
+configuration.access_token = 'YOUR_BEARER_TOKEN'
 
+# Defining host is optional and default to https://emeia-eos.fcsm.io
+configuration.host = "https://emeia-eos.fcsm.io"
 # Create an instance of the API class
-api_instance = fcsm_eos_api_client.AzureApi()
+api_instance = fcsm_eos_api_client.AzureApi(fcsm_eos_api_client.ApiClient(configuration))
 subscription_id = 'subscription_id_example' # str | ID of subscription
 status = fcsm_eos_api_client.AzureVolumeStatus() # AzureVolumeStatus | Volume status to filter by (optional)
 is_os_disk = True # bool | Filter volumes by IsOsDisk value (optional)
@@ -2974,7 +3274,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[bearerAuth](../README.md#bearerAuth)
 
 ### HTTP request headers
 
@@ -2999,15 +3299,21 @@ Creates new volume
 
 ### Example
 
+* Bearer (JWT) Authentication (bearerAuth):
 ```python
 from __future__ import print_function
 import time
 import fcsm_eos_api_client
 from fcsm_eos_api_client.rest import ApiException
 from pprint import pprint
+configuration = fcsm_eos_api_client.Configuration()
+# Configure Bearer authorization (JWT): bearerAuth
+configuration.access_token = 'YOUR_BEARER_TOKEN'
 
+# Defining host is optional and default to https://emeia-eos.fcsm.io
+configuration.host = "https://emeia-eos.fcsm.io"
 # Create an instance of the API class
-api_instance = fcsm_eos_api_client.AzureApi()
+api_instance = fcsm_eos_api_client.AzureApi(fcsm_eos_api_client.ApiClient(configuration))
 subscription_id = 'subscription_id_example' # str | ID of subscription
 azure_create_volume = fcsm_eos_api_client.AzureCreateVolume() # AzureCreateVolume | 
 
@@ -3032,7 +3338,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[bearerAuth](../README.md#bearerAuth)
 
 ### HTTP request headers
 

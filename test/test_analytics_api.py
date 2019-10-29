@@ -24,6 +24,8 @@ class TestAnalyticsApi(unittest.TestCase):
 
     def setUp(self):
         self.api = fcsm_eos_api_client.api.analytics_api.AnalyticsApi()  # noqa: E501
+        #from .set_token import set_api_token
+        #set_api_token(self.api)
 
     def tearDown(self):
         pass
@@ -56,6 +58,12 @@ class TestAnalyticsApi(unittest.TestCase):
         """Test case for get_summary
 
         """
+        summary = self.api.get_summary()
+        print(summary, type(summary))
+        model = fcsm_eos_api_client.models.analytics_summary.AnalyticsSummary()
+        model.platforms = 3
+        model.subscriptions = 3
+        self.assertEqual(summary, model)
         pass
 
     def test_get_summary_usage(self):

@@ -126,7 +126,7 @@ class AnalyticsApi(object):
             ['*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/analytics/metrics', 'GET',
@@ -226,7 +226,7 @@ class AnalyticsApi(object):
             ['*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/analytics/operatingSystems', 'GET',
@@ -334,7 +334,7 @@ class AnalyticsApi(object):
             ['*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/analytics/platforms/{platformId}', 'GET',
@@ -434,7 +434,7 @@ class AnalyticsApi(object):
             ['*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/analytics/platformsUsage', 'GET',
@@ -534,7 +534,7 @@ class AnalyticsApi(object):
             ['*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/analytics/summary', 'GET',
@@ -634,7 +634,7 @@ class AnalyticsApi(object):
             ['*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/analytics/summaryUsage', 'GET',

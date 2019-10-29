@@ -130,7 +130,7 @@ class ConfigApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/configuration/mailProviders', 'POST',
@@ -224,7 +224,7 @@ class ConfigApi(object):
 
         body_params = None
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/configuration/logo', 'GET',
@@ -330,7 +330,7 @@ class ConfigApi(object):
             ['multipart/form-data'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/configuration/logo', 'POST',
@@ -434,7 +434,7 @@ class ConfigApi(object):
 
         body_params = None
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/configuration/mailProviders/default/{provider_id}', 'DELETE',
@@ -542,7 +542,7 @@ class ConfigApi(object):
             ['*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/configuration/mailProviders/default/{provider_id}', 'PUT',
@@ -646,7 +646,7 @@ class ConfigApi(object):
 
         body_params = None
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/configuration/mailProviders/{provider_id}', 'DELETE',
@@ -746,7 +746,7 @@ class ConfigApi(object):
             ['*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/configuration/managementToolTypes', 'GET',
@@ -846,7 +846,7 @@ class ConfigApi(object):
             ['*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/configuration/managementTools', 'GET',
@@ -958,7 +958,7 @@ class ConfigApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/configuration/managementTools', 'POST',
@@ -1066,7 +1066,7 @@ class ConfigApi(object):
             ['*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/configuration/managementTools/{tool_id}', 'GET',
@@ -1186,7 +1186,7 @@ class ConfigApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/configuration/managementTools/{tool_id}', 'PUT',
@@ -1306,7 +1306,7 @@ class ConfigApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/configuration/mailProviders/{provider_id}', 'PUT',
@@ -1414,7 +1414,7 @@ class ConfigApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/configuration/platformAccess', 'PUT',
@@ -1514,7 +1514,7 @@ class ConfigApi(object):
             ['*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/configuration/platformAccess', 'GET',
@@ -1622,7 +1622,7 @@ class ConfigApi(object):
             ['*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/configuration/mailProviders/{provider_id}', 'GET',
@@ -1722,7 +1722,7 @@ class ConfigApi(object):
             ['*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/configuration/mailProviders', 'GET',
@@ -1830,7 +1830,7 @@ class ConfigApi(object):
             ['*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/configuration/platformAccess/{platform_id}', 'GET',
@@ -1930,7 +1930,7 @@ class ConfigApi(object):
             ['*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/configuration/mailProviders/default', 'GET',

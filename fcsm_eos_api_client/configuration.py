@@ -76,6 +76,9 @@ class Configuration(six.with_metaclass(TypeWithDefault, object)):
         self.password = password
         """Password for HTTP basic authentication
         """
+        self.access_token = ""
+        """access token for OAuth/Bearer
+        """
         self.logger = {}
         """Logging Settings
         """
@@ -252,6 +255,14 @@ class Configuration(six.with_metaclass(TypeWithDefault, object)):
         :return: The Auth Settings information dict.
         """
         return {
+            'bearerAuth':
+                {
+                    'type': 'bearer',
+                    'in': 'header',
+                    'format': 'JWT',
+                    'key': 'Authorization',
+                    'value': 'Bearer ' + self.access_token
+                },
         }
 
     def to_debug_report(self):
@@ -263,7 +274,7 @@ class Configuration(six.with_metaclass(TypeWithDefault, object)):
                "OS: {env}\n"\
                "Python Version: {pyversion}\n"\
                "Version of the API: 1.2.1\n"\
-               "SDK Package Version: 1.2.1".\
+               "SDK Package Version: 1.2.2".\
                format(env=sys.platform, pyversion=sys.version)
 
     def get_host_settings(self):

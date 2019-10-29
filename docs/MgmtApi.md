@@ -36,15 +36,21 @@ It is allowed to delete app instances that are in one of the following states: I
 
 ### Example
 
+* Bearer (JWT) Authentication (bearerAuth):
 ```python
 from __future__ import print_function
 import time
 import fcsm_eos_api_client
 from fcsm_eos_api_client.rest import ApiException
 from pprint import pprint
+configuration = fcsm_eos_api_client.Configuration()
+# Configure Bearer authorization (JWT): bearerAuth
+configuration.access_token = 'YOUR_BEARER_TOKEN'
 
+# Defining host is optional and default to https://emeia-eos.fcsm.io
+configuration.host = "https://emeia-eos.fcsm.io"
 # Create an instance of the API class
-api_instance = fcsm_eos_api_client.MgmtApi()
+api_instance = fcsm_eos_api_client.MgmtApi(fcsm_eos_api_client.ApiClient(configuration))
 subscription_id = 'subscription_id_example' # str | subscription id
 app_instance_id = 'app_instance_id_example' # str | 
 force_delete = True # bool | Forcely delete app_instance not checking the state. This option is only available for administrators  (optional)
@@ -70,7 +76,7 @@ void (empty response body)
 
 ### Authorization
 
-No authorization required
+[bearerAuth](../README.md#bearerAuth)
 
 ### HTTP request headers
 
@@ -95,15 +101,21 @@ Get an app instance
 
 ### Example
 
+* Bearer (JWT) Authentication (bearerAuth):
 ```python
 from __future__ import print_function
 import time
 import fcsm_eos_api_client
 from fcsm_eos_api_client.rest import ApiException
 from pprint import pprint
+configuration = fcsm_eos_api_client.Configuration()
+# Configure Bearer authorization (JWT): bearerAuth
+configuration.access_token = 'YOUR_BEARER_TOKEN'
 
+# Defining host is optional and default to https://emeia-eos.fcsm.io
+configuration.host = "https://emeia-eos.fcsm.io"
 # Create an instance of the API class
-api_instance = fcsm_eos_api_client.MgmtApi()
+api_instance = fcsm_eos_api_client.MgmtApi(fcsm_eos_api_client.ApiClient(configuration))
 subscription_id = 'subscription_id_example' # str | subscription id
 app_instance_id = 'app_instance_id_example' # str | 
 
@@ -128,7 +140,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[bearerAuth](../README.md#bearerAuth)
 
 ### HTTP request headers
 
@@ -151,15 +163,21 @@ No authorization required
 
 ### Example
 
+* Bearer (JWT) Authentication (bearerAuth):
 ```python
 from __future__ import print_function
 import time
 import fcsm_eos_api_client
 from fcsm_eos_api_client.rest import ApiException
 from pprint import pprint
+configuration = fcsm_eos_api_client.Configuration()
+# Configure Bearer authorization (JWT): bearerAuth
+configuration.access_token = 'YOUR_BEARER_TOKEN'
 
+# Defining host is optional and default to https://emeia-eos.fcsm.io
+configuration.host = "https://emeia-eos.fcsm.io"
 # Create an instance of the API class
-api_instance = fcsm_eos_api_client.MgmtApi()
+api_instance = fcsm_eos_api_client.MgmtApi(fcsm_eos_api_client.ApiClient(configuration))
 subscription_id = 'subscription_id_example' # str | subscription id
 app_instance_id = 'app_instance_id_example' # str | 
 
@@ -183,7 +201,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[bearerAuth](../README.md#bearerAuth)
 
 ### HTTP request headers
 
@@ -206,15 +224,21 @@ List apps instances
 
 ### Example
 
+* Bearer (JWT) Authentication (bearerAuth):
 ```python
 from __future__ import print_function
 import time
 import fcsm_eos_api_client
 from fcsm_eos_api_client.rest import ApiException
 from pprint import pprint
+configuration = fcsm_eos_api_client.Configuration()
+# Configure Bearer authorization (JWT): bearerAuth
+configuration.access_token = 'YOUR_BEARER_TOKEN'
 
+# Defining host is optional and default to https://emeia-eos.fcsm.io
+configuration.host = "https://emeia-eos.fcsm.io"
 # Create an instance of the API class
-api_instance = fcsm_eos_api_client.MgmtApi()
+api_instance = fcsm_eos_api_client.MgmtApi(fcsm_eos_api_client.ApiClient(configuration))
 subscription_id = 'subscription_id_example' # str | subscription id
 tool_id = 'tool_id_example' # str | Optional filter (optional)
 vm_id = 'vm_id_example' # str | Optional filter. (optional)
@@ -243,7 +267,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[bearerAuth](../README.md#bearerAuth)
 
 ### HTTP request headers
 
@@ -266,15 +290,21 @@ Create an app instance
 
 ### Example
 
+* Bearer (JWT) Authentication (bearerAuth):
 ```python
 from __future__ import print_function
 import time
 import fcsm_eos_api_client
 from fcsm_eos_api_client.rest import ApiException
 from pprint import pprint
+configuration = fcsm_eos_api_client.Configuration()
+# Configure Bearer authorization (JWT): bearerAuth
+configuration.access_token = 'YOUR_BEARER_TOKEN'
 
+# Defining host is optional and default to https://emeia-eos.fcsm.io
+configuration.host = "https://emeia-eos.fcsm.io"
 # Create an instance of the API class
-api_instance = fcsm_eos_api_client.MgmtApi()
+api_instance = fcsm_eos_api_client.MgmtApi(fcsm_eos_api_client.ApiClient(configuration))
 subscription_id = 'subscription_id_example' # str | subscription id
 inline_object2 = fcsm_eos_api_client.InlineObject2() # InlineObject2 | 
 
@@ -299,7 +329,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[bearerAuth](../README.md#bearerAuth)
 
 ### HTTP request headers
 
@@ -322,15 +352,21 @@ Get app by id
 
 ### Example
 
+* Bearer (JWT) Authentication (bearerAuth):
 ```python
 from __future__ import print_function
 import time
 import fcsm_eos_api_client
 from fcsm_eos_api_client.rest import ApiException
 from pprint import pprint
+configuration = fcsm_eos_api_client.Configuration()
+# Configure Bearer authorization (JWT): bearerAuth
+configuration.access_token = 'YOUR_BEARER_TOKEN'
 
+# Defining host is optional and default to https://emeia-eos.fcsm.io
+configuration.host = "https://emeia-eos.fcsm.io"
 # Create an instance of the API class
-api_instance = fcsm_eos_api_client.MgmtApi()
+api_instance = fcsm_eos_api_client.MgmtApi(fcsm_eos_api_client.ApiClient(configuration))
 app_id = 'app_id_example' # str | 
 
 try:
@@ -353,7 +389,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[bearerAuth](../README.md#bearerAuth)
 
 ### HTTP request headers
 
@@ -376,15 +412,21 @@ List apps
 
 ### Example
 
+* Bearer (JWT) Authentication (bearerAuth):
 ```python
 from __future__ import print_function
 import time
 import fcsm_eos_api_client
 from fcsm_eos_api_client.rest import ApiException
 from pprint import pprint
+configuration = fcsm_eos_api_client.Configuration()
+# Configure Bearer authorization (JWT): bearerAuth
+configuration.access_token = 'YOUR_BEARER_TOKEN'
 
+# Defining host is optional and default to https://emeia-eos.fcsm.io
+configuration.host = "https://emeia-eos.fcsm.io"
 # Create an instance of the API class
-api_instance = fcsm_eos_api_client.MgmtApi()
+api_instance = fcsm_eos_api_client.MgmtApi(fcsm_eos_api_client.ApiClient(configuration))
 tool_id = 'tool_id_example' # str |  (optional)
 
 try:
@@ -407,7 +449,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[bearerAuth](../README.md#bearerAuth)
 
 ### HTTP request headers
 
@@ -432,15 +474,21 @@ Get vm details
 
 ### Example
 
+* Bearer (JWT) Authentication (bearerAuth):
 ```python
 from __future__ import print_function
 import time
 import fcsm_eos_api_client
 from fcsm_eos_api_client.rest import ApiException
 from pprint import pprint
+configuration = fcsm_eos_api_client.Configuration()
+# Configure Bearer authorization (JWT): bearerAuth
+configuration.access_token = 'YOUR_BEARER_TOKEN'
 
+# Defining host is optional and default to https://emeia-eos.fcsm.io
+configuration.host = "https://emeia-eos.fcsm.io"
 # Create an instance of the API class
-api_instance = fcsm_eos_api_client.MgmtApi()
+api_instance = fcsm_eos_api_client.MgmtApi(fcsm_eos_api_client.ApiClient(configuration))
 mgmt_vm_details_params = fcsm_eos_api_client.MgmtVmDetailsParams() # MgmtVmDetailsParams | Operating system and Vm information
 
 try:
@@ -463,7 +511,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[bearerAuth](../README.md#bearerAuth)
 
 ### HTTP request headers
 
@@ -488,15 +536,21 @@ Get bootstrap script
 
 ### Example
 
+* Bearer (JWT) Authentication (bearerAuth):
 ```python
 from __future__ import print_function
 import time
 import fcsm_eos_api_client
 from fcsm_eos_api_client.rest import ApiException
 from pprint import pprint
+configuration = fcsm_eos_api_client.Configuration()
+# Configure Bearer authorization (JWT): bearerAuth
+configuration.access_token = 'YOUR_BEARER_TOKEN'
 
+# Defining host is optional and default to https://emeia-eos.fcsm.io
+configuration.host = "https://emeia-eos.fcsm.io"
 # Create an instance of the API class
-api_instance = fcsm_eos_api_client.MgmtApi()
+api_instance = fcsm_eos_api_client.MgmtApi(fcsm_eos_api_client.ApiClient(configuration))
 mgmt_bootstrap_script = fcsm_eos_api_client.MgmtBootstrapScript() # MgmtBootstrapScript | Platform and Vm information
 
 try:
@@ -519,7 +573,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[bearerAuth](../README.md#bearerAuth)
 
 ### HTTP request headers
 
@@ -543,15 +597,21 @@ Install application
 
 ### Example
 
+* Bearer (JWT) Authentication (bearerAuth):
 ```python
 from __future__ import print_function
 import time
 import fcsm_eos_api_client
 from fcsm_eos_api_client.rest import ApiException
 from pprint import pprint
+configuration = fcsm_eos_api_client.Configuration()
+# Configure Bearer authorization (JWT): bearerAuth
+configuration.access_token = 'YOUR_BEARER_TOKEN'
 
+# Defining host is optional and default to https://emeia-eos.fcsm.io
+configuration.host = "https://emeia-eos.fcsm.io"
 # Create an instance of the API class
-api_instance = fcsm_eos_api_client.MgmtApi()
+api_instance = fcsm_eos_api_client.MgmtApi(fcsm_eos_api_client.ApiClient(configuration))
 mgmt_application = fcsm_eos_api_client.MgmtApplication() # MgmtApplication | Application and VM information
 
 try:
@@ -574,7 +634,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[bearerAuth](../README.md#bearerAuth)
 
 ### HTTP request headers
 
@@ -597,15 +657,21 @@ Check if a vm is managed
 
 ### Example
 
+* Bearer (JWT) Authentication (bearerAuth):
 ```python
 from __future__ import print_function
 import time
 import fcsm_eos_api_client
 from fcsm_eos_api_client.rest import ApiException
 from pprint import pprint
+configuration = fcsm_eos_api_client.Configuration()
+# Configure Bearer authorization (JWT): bearerAuth
+configuration.access_token = 'YOUR_BEARER_TOKEN'
 
+# Defining host is optional and default to https://emeia-eos.fcsm.io
+configuration.host = "https://emeia-eos.fcsm.io"
 # Create an instance of the API class
-api_instance = fcsm_eos_api_client.MgmtApi()
+api_instance = fcsm_eos_api_client.MgmtApi(fcsm_eos_api_client.ApiClient(configuration))
 mgmt_manage_vm = fcsm_eos_api_client.MgmtManageVm() # MgmtManageVm | Vm information
 
 try:
@@ -628,7 +694,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[bearerAuth](../README.md#bearerAuth)
 
 ### HTTP request headers
 
@@ -651,15 +717,21 @@ Return list of managed VM ids
 
 ### Example
 
+* Bearer (JWT) Authentication (bearerAuth):
 ```python
 from __future__ import print_function
 import time
 import fcsm_eos_api_client
 from fcsm_eos_api_client.rest import ApiException
 from pprint import pprint
+configuration = fcsm_eos_api_client.Configuration()
+# Configure Bearer authorization (JWT): bearerAuth
+configuration.access_token = 'YOUR_BEARER_TOKEN'
 
+# Defining host is optional and default to https://emeia-eos.fcsm.io
+configuration.host = "https://emeia-eos.fcsm.io"
 # Create an instance of the API class
-api_instance = fcsm_eos_api_client.MgmtApi()
+api_instance = fcsm_eos_api_client.MgmtApi(fcsm_eos_api_client.ApiClient(configuration))
 subscription_id = 'subscription_id_example' # str | 
 vm_id = 'vm_id_example' # str |  (optional)
 
@@ -684,7 +756,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[bearerAuth](../README.md#bearerAuth)
 
 ### HTTP request headers
 
@@ -708,15 +780,21 @@ Register Vm in management tool
 
 ### Example
 
+* Bearer (JWT) Authentication (bearerAuth):
 ```python
 from __future__ import print_function
 import time
 import fcsm_eos_api_client
 from fcsm_eos_api_client.rest import ApiException
 from pprint import pprint
+configuration = fcsm_eos_api_client.Configuration()
+# Configure Bearer authorization (JWT): bearerAuth
+configuration.access_token = 'YOUR_BEARER_TOKEN'
 
+# Defining host is optional and default to https://emeia-eos.fcsm.io
+configuration.host = "https://emeia-eos.fcsm.io"
 # Create an instance of the API class
-api_instance = fcsm_eos_api_client.MgmtApi()
+api_instance = fcsm_eos_api_client.MgmtApi(fcsm_eos_api_client.ApiClient(configuration))
 mgmt_register_vm = fcsm_eos_api_client.MgmtRegisterVm() # MgmtRegisterVm | Vm and management tool information
 
 try:
@@ -737,7 +815,7 @@ void (empty response body)
 
 ### Authorization
 
-No authorization required
+[bearerAuth](../README.md#bearerAuth)
 
 ### HTTP request headers
 
@@ -761,15 +839,21 @@ Upload apps metadata
 
 ### Example
 
+* Bearer (JWT) Authentication (bearerAuth):
 ```python
 from __future__ import print_function
 import time
 import fcsm_eos_api_client
 from fcsm_eos_api_client.rest import ApiException
 from pprint import pprint
+configuration = fcsm_eos_api_client.Configuration()
+# Configure Bearer authorization (JWT): bearerAuth
+configuration.access_token = 'YOUR_BEARER_TOKEN'
 
+# Defining host is optional and default to https://emeia-eos.fcsm.io
+configuration.host = "https://emeia-eos.fcsm.io"
 # Create an instance of the API class
-api_instance = fcsm_eos_api_client.MgmtApi()
+api_instance = fcsm_eos_api_client.MgmtApi(fcsm_eos_api_client.ApiClient(configuration))
 x_tool_token = 'x_tool_token_example' # str | A token that gives permission to upload apps for specific tool.
 inline_object1 = fcsm_eos_api_client.InlineObject1() # InlineObject1 | 
 
@@ -793,7 +877,7 @@ void (empty response body)
 
 ### Authorization
 
-No authorization required
+[bearerAuth](../README.md#bearerAuth)
 
 ### HTTP request headers
 
@@ -819,15 +903,21 @@ Check connection with Vm
 
 ### Example
 
+* Bearer (JWT) Authentication (bearerAuth):
 ```python
 from __future__ import print_function
 import time
 import fcsm_eos_api_client
 from fcsm_eos_api_client.rest import ApiException
 from pprint import pprint
+configuration = fcsm_eos_api_client.Configuration()
+# Configure Bearer authorization (JWT): bearerAuth
+configuration.access_token = 'YOUR_BEARER_TOKEN'
 
+# Defining host is optional and default to https://emeia-eos.fcsm.io
+configuration.host = "https://emeia-eos.fcsm.io"
 # Create an instance of the API class
-api_instance = fcsm_eos_api_client.MgmtApi()
+api_instance = fcsm_eos_api_client.MgmtApi(fcsm_eos_api_client.ApiClient(configuration))
 mgmt_manage_vm = fcsm_eos_api_client.MgmtManageVm() # MgmtManageVm | Vm information
 
 try:
@@ -850,7 +940,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[bearerAuth](../README.md#bearerAuth)
 
 ### HTTP request headers
 
@@ -872,15 +962,21 @@ Get app by name
 
 ### Example
 
+* Bearer (JWT) Authentication (bearerAuth):
 ```python
 from __future__ import print_function
 import time
 import fcsm_eos_api_client
 from fcsm_eos_api_client.rest import ApiException
 from pprint import pprint
+configuration = fcsm_eos_api_client.Configuration()
+# Configure Bearer authorization (JWT): bearerAuth
+configuration.access_token = 'YOUR_BEARER_TOKEN'
 
+# Defining host is optional and default to https://emeia-eos.fcsm.io
+configuration.host = "https://emeia-eos.fcsm.io"
 # Create an instance of the API class
-api_instance = fcsm_eos_api_client.MgmtApi()
+api_instance = fcsm_eos_api_client.MgmtApi(fcsm_eos_api_client.ApiClient(configuration))
 tool_id = 'tool_id_example' # str | 
 app_name = 'app_name_example' # str | 
 
@@ -905,7 +1001,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[bearerAuth](../README.md#bearerAuth)
 
 ### HTTP request headers
 
@@ -928,15 +1024,21 @@ Generate a new token for the given tool
 
 ### Example
 
+* Bearer (JWT) Authentication (bearerAuth):
 ```python
 from __future__ import print_function
 import time
 import fcsm_eos_api_client
 from fcsm_eos_api_client.rest import ApiException
 from pprint import pprint
+configuration = fcsm_eos_api_client.Configuration()
+# Configure Bearer authorization (JWT): bearerAuth
+configuration.access_token = 'YOUR_BEARER_TOKEN'
 
+# Defining host is optional and default to https://emeia-eos.fcsm.io
+configuration.host = "https://emeia-eos.fcsm.io"
 # Create an instance of the API class
-api_instance = fcsm_eos_api_client.MgmtApi()
+api_instance = fcsm_eos_api_client.MgmtApi(fcsm_eos_api_client.ApiClient(configuration))
 tool_id = 'tool_id_example' # str | 
 inline_object3 = fcsm_eos_api_client.InlineObject3() # InlineObject3 | 
 
@@ -961,7 +1063,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[bearerAuth](../README.md#bearerAuth)
 
 ### HTTP request headers
 
@@ -985,15 +1087,21 @@ Delete the token
 
 ### Example
 
+* Bearer (JWT) Authentication (bearerAuth):
 ```python
 from __future__ import print_function
 import time
 import fcsm_eos_api_client
 from fcsm_eos_api_client.rest import ApiException
 from pprint import pprint
+configuration = fcsm_eos_api_client.Configuration()
+# Configure Bearer authorization (JWT): bearerAuth
+configuration.access_token = 'YOUR_BEARER_TOKEN'
 
+# Defining host is optional and default to https://emeia-eos.fcsm.io
+configuration.host = "https://emeia-eos.fcsm.io"
 # Create an instance of the API class
-api_instance = fcsm_eos_api_client.MgmtApi()
+api_instance = fcsm_eos_api_client.MgmtApi(fcsm_eos_api_client.ApiClient(configuration))
 tool_id = 'tool_id_example' # str | 
 token_value = 'token_value_example' # str | 
 
@@ -1017,7 +1125,7 @@ void (empty response body)
 
 ### Authorization
 
-No authorization required
+[bearerAuth](../README.md#bearerAuth)
 
 ### HTTP request headers
 
@@ -1042,15 +1150,21 @@ Uninstall application
 
 ### Example
 
+* Bearer (JWT) Authentication (bearerAuth):
 ```python
 from __future__ import print_function
 import time
 import fcsm_eos_api_client
 from fcsm_eos_api_client.rest import ApiException
 from pprint import pprint
+configuration = fcsm_eos_api_client.Configuration()
+# Configure Bearer authorization (JWT): bearerAuth
+configuration.access_token = 'YOUR_BEARER_TOKEN'
 
+# Defining host is optional and default to https://emeia-eos.fcsm.io
+configuration.host = "https://emeia-eos.fcsm.io"
 # Create an instance of the API class
-api_instance = fcsm_eos_api_client.MgmtApi()
+api_instance = fcsm_eos_api_client.MgmtApi(fcsm_eos_api_client.ApiClient(configuration))
 mgmt_application = fcsm_eos_api_client.MgmtApplication() # MgmtApplication | Application and Vm information
 
 try:
@@ -1073,7 +1187,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[bearerAuth](../README.md#bearerAuth)
 
 ### HTTP request headers
 
@@ -1098,15 +1212,21 @@ Unregister vms from subscription
 
 ### Example
 
+* Bearer (JWT) Authentication (bearerAuth):
 ```python
 from __future__ import print_function
 import time
 import fcsm_eos_api_client
 from fcsm_eos_api_client.rest import ApiException
 from pprint import pprint
+configuration = fcsm_eos_api_client.Configuration()
+# Configure Bearer authorization (JWT): bearerAuth
+configuration.access_token = 'YOUR_BEARER_TOKEN'
 
+# Defining host is optional and default to https://emeia-eos.fcsm.io
+configuration.host = "https://emeia-eos.fcsm.io"
 # Create an instance of the API class
-api_instance = fcsm_eos_api_client.MgmtApi()
+api_instance = fcsm_eos_api_client.MgmtApi(fcsm_eos_api_client.ApiClient(configuration))
 body = 'body_example' # str | Subscription id
 
 try:
@@ -1128,7 +1248,7 @@ void (empty response body)
 
 ### Authorization
 
-No authorization required
+[bearerAuth](../README.md#bearerAuth)
 
 ### HTTP request headers
 
@@ -1152,15 +1272,21 @@ Unregister Vm from management tool
 
 ### Example
 
+* Bearer (JWT) Authentication (bearerAuth):
 ```python
 from __future__ import print_function
 import time
 import fcsm_eos_api_client
 from fcsm_eos_api_client.rest import ApiException
 from pprint import pprint
+configuration = fcsm_eos_api_client.Configuration()
+# Configure Bearer authorization (JWT): bearerAuth
+configuration.access_token = 'YOUR_BEARER_TOKEN'
 
+# Defining host is optional and default to https://emeia-eos.fcsm.io
+configuration.host = "https://emeia-eos.fcsm.io"
 # Create an instance of the API class
-api_instance = fcsm_eos_api_client.MgmtApi()
+api_instance = fcsm_eos_api_client.MgmtApi(fcsm_eos_api_client.ApiClient(configuration))
 mgmt_manage_vm = fcsm_eos_api_client.MgmtManageVm() # MgmtManageVm | Vm information
 
 try:
@@ -1182,7 +1308,7 @@ void (empty response body)
 
 ### Authorization
 
-No authorization required
+[bearerAuth](../README.md#bearerAuth)
 
 ### HTTP request headers
 

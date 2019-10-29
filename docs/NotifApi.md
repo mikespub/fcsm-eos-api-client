@@ -16,15 +16,21 @@ Send email
 
 ### Example
 
+* Bearer (JWT) Authentication (bearerAuth):
 ```python
 from __future__ import print_function
 import time
 import fcsm_eos_api_client
 from fcsm_eos_api_client.rest import ApiException
 from pprint import pprint
+configuration = fcsm_eos_api_client.Configuration()
+# Configure Bearer authorization (JWT): bearerAuth
+configuration.access_token = 'YOUR_BEARER_TOKEN'
 
+# Defining host is optional and default to https://emeia-eos.fcsm.io
+configuration.host = "https://emeia-eos.fcsm.io"
 # Create an instance of the API class
-api_instance = fcsm_eos_api_client.NotifApi()
+api_instance = fcsm_eos_api_client.NotifApi(fcsm_eos_api_client.ApiClient(configuration))
 notif_message = fcsm_eos_api_client.NotifMessage() # NotifMessage | Message data
 
 try:
@@ -46,7 +52,7 @@ void (empty response body)
 
 ### Authorization
 
-No authorization required
+[bearerAuth](../README.md#bearerAuth)
 
 ### HTTP request headers
 

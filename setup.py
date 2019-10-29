@@ -13,7 +13,7 @@
 from setuptools import setup, find_packages  # noqa: H301
 
 NAME = "fcsm-eos-api-client"
-VERSION = "1.2.1"
+VERSION = "1.2.2"
 # To install the library, run the following
 #
 # python setup.py install

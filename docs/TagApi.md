@@ -20,15 +20,21 @@ Creates tag with given name and values
 
 ### Example
 
+* Bearer (JWT) Authentication (bearerAuth):
 ```python
 from __future__ import print_function
 import time
 import fcsm_eos_api_client
 from fcsm_eos_api_client.rest import ApiException
 from pprint import pprint
+configuration = fcsm_eos_api_client.Configuration()
+# Configure Bearer authorization (JWT): bearerAuth
+configuration.access_token = 'YOUR_BEARER_TOKEN'
 
+# Defining host is optional and default to https://emeia-eos.fcsm.io
+configuration.host = "https://emeia-eos.fcsm.io"
 # Create an instance of the API class
-api_instance = fcsm_eos_api_client.TagApi()
+api_instance = fcsm_eos_api_client.TagApi(fcsm_eos_api_client.ApiClient(configuration))
 tag_tag = fcsm_eos_api_client.TagTag() # TagTag | The details of tag that will be created
 email = 'email_example' # str |  (optional)
 
@@ -52,7 +58,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[bearerAuth](../README.md#bearerAuth)
 
 ### HTTP request headers
 
@@ -79,15 +85,21 @@ Delete tag with given name
 
 ### Example
 
+* Bearer (JWT) Authentication (bearerAuth):
 ```python
 from __future__ import print_function
 import time
 import fcsm_eos_api_client
 from fcsm_eos_api_client.rest import ApiException
 from pprint import pprint
+configuration = fcsm_eos_api_client.Configuration()
+# Configure Bearer authorization (JWT): bearerAuth
+configuration.access_token = 'YOUR_BEARER_TOKEN'
 
+# Defining host is optional and default to https://emeia-eos.fcsm.io
+configuration.host = "https://emeia-eos.fcsm.io"
 # Create an instance of the API class
-api_instance = fcsm_eos_api_client.TagApi()
+api_instance = fcsm_eos_api_client.TagApi(fcsm_eos_api_client.ApiClient(configuration))
 tag_name = 'tag_name_example' # str | 
 email = 'email_example' # str |  (optional)
 
@@ -110,7 +122,7 @@ void (empty response body)
 
 ### Authorization
 
-No authorization required
+[bearerAuth](../README.md#bearerAuth)
 
 ### HTTP request headers
 
@@ -136,15 +148,21 @@ Returns the specified tag
 
 ### Example
 
+* Bearer (JWT) Authentication (bearerAuth):
 ```python
 from __future__ import print_function
 import time
 import fcsm_eos_api_client
 from fcsm_eos_api_client.rest import ApiException
 from pprint import pprint
+configuration = fcsm_eos_api_client.Configuration()
+# Configure Bearer authorization (JWT): bearerAuth
+configuration.access_token = 'YOUR_BEARER_TOKEN'
 
+# Defining host is optional and default to https://emeia-eos.fcsm.io
+configuration.host = "https://emeia-eos.fcsm.io"
 # Create an instance of the API class
-api_instance = fcsm_eos_api_client.TagApi()
+api_instance = fcsm_eos_api_client.TagApi(fcsm_eos_api_client.ApiClient(configuration))
 tag_name = 'tag_name_example' # str | 
 
 try:
@@ -167,7 +185,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[bearerAuth](../README.md#bearerAuth)
 
 ### HTTP request headers
 
@@ -193,15 +211,21 @@ Returns a list of all tags with values
 
 ### Example
 
+* Bearer (JWT) Authentication (bearerAuth):
 ```python
 from __future__ import print_function
 import time
 import fcsm_eos_api_client
 from fcsm_eos_api_client.rest import ApiException
 from pprint import pprint
+configuration = fcsm_eos_api_client.Configuration()
+# Configure Bearer authorization (JWT): bearerAuth
+configuration.access_token = 'YOUR_BEARER_TOKEN'
 
+# Defining host is optional and default to https://emeia-eos.fcsm.io
+configuration.host = "https://emeia-eos.fcsm.io"
 # Create an instance of the API class
-api_instance = fcsm_eos_api_client.TagApi()
+api_instance = fcsm_eos_api_client.TagApi(fcsm_eos_api_client.ApiClient(configuration))
 
 try:
     api_response = api_instance.get_tags()
@@ -219,7 +243,7 @@ This endpoint does not need any parameter.
 
 ### Authorization
 
-No authorization required
+[bearerAuth](../README.md#bearerAuth)
 
 ### HTTP request headers
 
@@ -244,15 +268,21 @@ Update some fields of a tag
 
 ### Example
 
+* Bearer (JWT) Authentication (bearerAuth):
 ```python
 from __future__ import print_function
 import time
 import fcsm_eos_api_client
 from fcsm_eos_api_client.rest import ApiException
 from pprint import pprint
+configuration = fcsm_eos_api_client.Configuration()
+# Configure Bearer authorization (JWT): bearerAuth
+configuration.access_token = 'YOUR_BEARER_TOKEN'
 
+# Defining host is optional and default to https://emeia-eos.fcsm.io
+configuration.host = "https://emeia-eos.fcsm.io"
 # Create an instance of the API class
-api_instance = fcsm_eos_api_client.TagApi()
+api_instance = fcsm_eos_api_client.TagApi(fcsm_eos_api_client.ApiClient(configuration))
 tag_name = 'tag_name_example' # str | 
 tag_tag_update = fcsm_eos_api_client.TagTagUpdate() # TagTagUpdate | The details of tag that will be updated
 email = 'email_example' # str |  (optional)
@@ -277,7 +307,7 @@ void (empty response body)
 
 ### Authorization
 
-No authorization required
+[bearerAuth](../README.md#bearerAuth)
 
 ### HTTP request headers
 

@@ -126,7 +126,7 @@ class VmwareApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/vmware/compute/availabilityZones', 'GET',
@@ -242,7 +242,7 @@ class VmwareApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/vmware/compute/flavors/{flavorId}', 'GET',
@@ -350,7 +350,7 @@ class VmwareApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/vmware/compute/flavors', 'GET',
@@ -466,7 +466,7 @@ class VmwareApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/vmware/compute/images/{imageId}', 'GET',
@@ -578,7 +578,7 @@ class VmwareApi(object):
 
         body_params = None
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/vmware/compute/privateImages/{imageId}', 'GET',
@@ -694,7 +694,7 @@ class VmwareApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/vmware/compute/publicImages/{imageId}', 'GET',
@@ -809,7 +809,7 @@ class VmwareApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/vmware/compute/images', 'GET',
@@ -928,7 +928,7 @@ class VmwareApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/vmware/compute/privateImages', 'GET',
@@ -1047,7 +1047,7 @@ class VmwareApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/vmware/compute/publicImages', 'GET',
@@ -1159,7 +1159,7 @@ class VmwareApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/vmware/compute/interfaces', 'GET',
@@ -1271,7 +1271,7 @@ class VmwareApi(object):
 
         body_params = None
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/vmware/compute/keypairs/{keypairId}', 'DELETE',
@@ -1379,7 +1379,7 @@ class VmwareApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/vmware/compute/keypairs', 'GET',
@@ -1499,7 +1499,7 @@ class VmwareApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/vmware/compute/keypairs/generate', 'POST',
@@ -1619,7 +1619,7 @@ class VmwareApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/vmware/compute/keypairs/import', 'POST',
@@ -1735,7 +1735,7 @@ class VmwareApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/vmware/compute/vms/{vmId}/management', 'GET',
@@ -1847,7 +1847,7 @@ class VmwareApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/vmware/compute/networks', 'GET',
@@ -1947,7 +1947,7 @@ class VmwareApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/vmware/compute/regions', 'GET',
@@ -2059,7 +2059,7 @@ class VmwareApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/vmware/compute/securityGroups', 'GET',
@@ -2171,7 +2171,7 @@ class VmwareApi(object):
 
         body_params = None
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/vmware/compute/snapshots/{snapshotId}', 'DELETE',
@@ -2279,7 +2279,7 @@ class VmwareApi(object):
 
         body_params = None
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/vmware/compute/snapshots', 'GET',
@@ -2395,7 +2395,7 @@ class VmwareApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/vmware/compute/snapshots', 'POST',
@@ -2515,7 +2515,7 @@ class VmwareApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/vmware/compute/networks/{networkId}/subnets', 'GET',
@@ -2619,7 +2619,7 @@ class VmwareApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/vmware/compute/validateSubscription', 'POST',
@@ -2739,7 +2739,7 @@ class VmwareApi(object):
 
         body_params = None
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/vmware/compute/vms/{vmId}/command/{action}', 'PUT',
@@ -2851,7 +2851,7 @@ class VmwareApi(object):
 
         body_params = None
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/vmware/compute/vms/{vmId}', 'DELETE',
@@ -2967,7 +2967,7 @@ class VmwareApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/vmware/compute/vms/{vmId}/details', 'GET',
@@ -3083,7 +3083,7 @@ class VmwareApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/vmware/compute/vms/{vmId}', 'GET',
@@ -3199,7 +3199,7 @@ class VmwareApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/vmware/compute/vms/{vmId}/password', 'GET',
@@ -3323,7 +3323,7 @@ class VmwareApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/vmware/compute/vms/{vmId}', 'PATCH',
@@ -3447,7 +3447,7 @@ class VmwareApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/vmware/compute/vms/{vmId}/setTag', 'PUT',
@@ -3559,7 +3559,7 @@ class VmwareApi(object):
 
         body_params = None
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/vmware/compute/vms/{vmId}/workshift', 'DELETE',
@@ -3687,7 +3687,7 @@ class VmwareApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/vmware/compute/vms/{vmId}/workshift', 'PUT',
@@ -3815,7 +3815,7 @@ class VmwareApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/vmware/compute/vms/{vmId}/workshift', 'POST',
@@ -3927,7 +3927,7 @@ class VmwareApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/vmware/compute/vms', 'GET',
@@ -4047,7 +4047,7 @@ class VmwareApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/vmware/compute/vms', 'POST',
@@ -4161,7 +4161,7 @@ class VmwareApi(object):
 
         body_params = None
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/vmware/compute/volumes/{volume_id}/detach', 'DELETE',
@@ -4285,7 +4285,7 @@ class VmwareApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/vmware/compute/volumes/{volume_id}', 'PATCH',
@@ -4401,7 +4401,7 @@ class VmwareApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/vmware/compute/volumeTypes', 'GET',
@@ -4521,7 +4521,7 @@ class VmwareApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/vmware/compute/volumes', 'GET',
@@ -4641,7 +4641,7 @@ class VmwareApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['bearerAuth']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/vmware/compute/volumes', 'POST',

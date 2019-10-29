@@ -22,15 +22,21 @@ Get image type (OS) for a image
 
 ### Example
 
+* Bearer (JWT) Authentication (bearerAuth):
 ```python
 from __future__ import print_function
 import time
 import fcsm_eos_api_client
 from fcsm_eos_api_client.rest import ApiException
 from pprint import pprint
+configuration = fcsm_eos_api_client.Configuration()
+# Configure Bearer authorization (JWT): bearerAuth
+configuration.access_token = 'YOUR_BEARER_TOKEN'
 
+# Defining host is optional and default to https://emeia-eos.fcsm.io
+configuration.host = "https://emeia-eos.fcsm.io"
 # Create an instance of the API class
-api_instance = fcsm_eos_api_client.ImgWhitelistApi()
+api_instance = fcsm_eos_api_client.ImgWhitelistApi(fcsm_eos_api_client.ApiClient(configuration))
 name = 'name_example' # str | Image name to specify OS
 
 try:
@@ -53,7 +59,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[bearerAuth](../README.md#bearerAuth)
 
 ### HTTP request headers
 
@@ -75,15 +81,21 @@ Delete whitelist
 
 ### Example
 
+* Bearer (JWT) Authentication (bearerAuth):
 ```python
 from __future__ import print_function
 import time
 import fcsm_eos_api_client
 from fcsm_eos_api_client.rest import ApiException
 from pprint import pprint
+configuration = fcsm_eos_api_client.Configuration()
+# Configure Bearer authorization (JWT): bearerAuth
+configuration.access_token = 'YOUR_BEARER_TOKEN'
 
+# Defining host is optional and default to https://emeia-eos.fcsm.io
+configuration.host = "https://emeia-eos.fcsm.io"
 # Create an instance of the API class
-api_instance = fcsm_eos_api_client.ImgWhitelistApi()
+api_instance = fcsm_eos_api_client.ImgWhitelistApi(fcsm_eos_api_client.ApiClient(configuration))
 subscription_id = 'subscription_id_example' # str | Subscription id
 
 try:
@@ -105,7 +117,7 @@ void (empty response body)
 
 ### Authorization
 
-No authorization required
+[bearerAuth](../README.md#bearerAuth)
 
 ### HTTP request headers
 
@@ -129,15 +141,21 @@ Get images from whitelist
 
 ### Example
 
+* Bearer (JWT) Authentication (bearerAuth):
 ```python
 from __future__ import print_function
 import time
 import fcsm_eos_api_client
 from fcsm_eos_api_client.rest import ApiException
 from pprint import pprint
+configuration = fcsm_eos_api_client.Configuration()
+# Configure Bearer authorization (JWT): bearerAuth
+configuration.access_token = 'YOUR_BEARER_TOKEN'
 
+# Defining host is optional and default to https://emeia-eos.fcsm.io
+configuration.host = "https://emeia-eos.fcsm.io"
 # Create an instance of the API class
-api_instance = fcsm_eos_api_client.ImgWhitelistApi()
+api_instance = fcsm_eos_api_client.ImgWhitelistApi(fcsm_eos_api_client.ApiClient(configuration))
 subscription_id = 'subscription_id_example' # str | Subscription id
 name = 'name_example' # str | Image name to filter by (optional)
 limit = 10 # int | Limit of images to show (optional) (default to 10)
@@ -168,7 +186,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[bearerAuth](../README.md#bearerAuth)
 
 ### HTTP request headers
 
@@ -192,15 +210,21 @@ Remove image from whitelist
 
 ### Example
 
+* Bearer (JWT) Authentication (bearerAuth):
 ```python
 from __future__ import print_function
 import time
 import fcsm_eos_api_client
 from fcsm_eos_api_client.rest import ApiException
 from pprint import pprint
+configuration = fcsm_eos_api_client.Configuration()
+# Configure Bearer authorization (JWT): bearerAuth
+configuration.access_token = 'YOUR_BEARER_TOKEN'
 
+# Defining host is optional and default to https://emeia-eos.fcsm.io
+configuration.host = "https://emeia-eos.fcsm.io"
 # Create an instance of the API class
-api_instance = fcsm_eos_api_client.ImgWhitelistApi()
+api_instance = fcsm_eos_api_client.ImgWhitelistApi(fcsm_eos_api_client.ApiClient(configuration))
 subscription_id = 'subscription_id_example' # str | Subscription id
 image_id = 'image_id_example' # str | Image id
 
@@ -224,7 +248,7 @@ void (empty response body)
 
 ### Authorization
 
-No authorization required
+[bearerAuth](../README.md#bearerAuth)
 
 ### HTTP request headers
 
@@ -248,15 +272,21 @@ Get single image
 
 ### Example
 
+* Bearer (JWT) Authentication (bearerAuth):
 ```python
 from __future__ import print_function
 import time
 import fcsm_eos_api_client
 from fcsm_eos_api_client.rest import ApiException
 from pprint import pprint
+configuration = fcsm_eos_api_client.Configuration()
+# Configure Bearer authorization (JWT): bearerAuth
+configuration.access_token = 'YOUR_BEARER_TOKEN'
 
+# Defining host is optional and default to https://emeia-eos.fcsm.io
+configuration.host = "https://emeia-eos.fcsm.io"
 # Create an instance of the API class
-api_instance = fcsm_eos_api_client.ImgWhitelistApi()
+api_instance = fcsm_eos_api_client.ImgWhitelistApi(fcsm_eos_api_client.ApiClient(configuration))
 subscription_id = 'subscription_id_example' # str | Subscription id
 image_id = 'image_id_example' # str | Image id
 
@@ -281,7 +311,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[bearerAuth](../README.md#bearerAuth)
 
 ### HTTP request headers
 
@@ -305,15 +335,21 @@ Update operating system for image
 
 ### Example
 
+* Bearer (JWT) Authentication (bearerAuth):
 ```python
 from __future__ import print_function
 import time
 import fcsm_eos_api_client
 from fcsm_eos_api_client.rest import ApiException
 from pprint import pprint
+configuration = fcsm_eos_api_client.Configuration()
+# Configure Bearer authorization (JWT): bearerAuth
+configuration.access_token = 'YOUR_BEARER_TOKEN'
 
+# Defining host is optional and default to https://emeia-eos.fcsm.io
+configuration.host = "https://emeia-eos.fcsm.io"
 # Create an instance of the API class
-api_instance = fcsm_eos_api_client.ImgWhitelistApi()
+api_instance = fcsm_eos_api_client.ImgWhitelistApi(fcsm_eos_api_client.ApiClient(configuration))
 subscription_id = 'subscription_id_example' # str | Subscription id
 image_id = 'image_id_example' # str | Image id
 img_whitelist_image_update = fcsm_eos_api_client.ImgWhitelistImageUpdate() # ImgWhitelistImageUpdate | Image details
@@ -340,7 +376,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[bearerAuth](../README.md#bearerAuth)
 
 ### HTTP request headers
 
@@ -366,15 +402,21 @@ Please use PATCH method. This action will be removed on 14.05.2019
 
 ### Example
 
+* Bearer (JWT) Authentication (bearerAuth):
 ```python
 from __future__ import print_function
 import time
 import fcsm_eos_api_client
 from fcsm_eos_api_client.rest import ApiException
 from pprint import pprint
+configuration = fcsm_eos_api_client.Configuration()
+# Configure Bearer authorization (JWT): bearerAuth
+configuration.access_token = 'YOUR_BEARER_TOKEN'
 
+# Defining host is optional and default to https://emeia-eos.fcsm.io
+configuration.host = "https://emeia-eos.fcsm.io"
 # Create an instance of the API class
-api_instance = fcsm_eos_api_client.ImgWhitelistApi()
+api_instance = fcsm_eos_api_client.ImgWhitelistApi(fcsm_eos_api_client.ApiClient(configuration))
 subscription_id = 'subscription_id_example' # str | Subscription id
 image_id = 'image_id_example' # str | Image id
 img_whitelist_image_update = fcsm_eos_api_client.ImgWhitelistImageUpdate() # ImgWhitelistImageUpdate | Image details
@@ -401,7 +443,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[bearerAuth](../README.md#bearerAuth)
 
 ### HTTP request headers
 
@@ -425,15 +467,21 @@ Add single image to whitelist
 
 ### Example
 
+* Bearer (JWT) Authentication (bearerAuth):
 ```python
 from __future__ import print_function
 import time
 import fcsm_eos_api_client
 from fcsm_eos_api_client.rest import ApiException
 from pprint import pprint
+configuration = fcsm_eos_api_client.Configuration()
+# Configure Bearer authorization (JWT): bearerAuth
+configuration.access_token = 'YOUR_BEARER_TOKEN'
 
+# Defining host is optional and default to https://emeia-eos.fcsm.io
+configuration.host = "https://emeia-eos.fcsm.io"
 # Create an instance of the API class
-api_instance = fcsm_eos_api_client.ImgWhitelistApi()
+api_instance = fcsm_eos_api_client.ImgWhitelistApi(fcsm_eos_api_client.ApiClient(configuration))
 subscription_id = 'subscription_id_example' # str | Subscription id
 img_whitelist_image_add = fcsm_eos_api_client.ImgWhitelistImageAdd() # ImgWhitelistImageAdd | Image details
 
@@ -458,7 +506,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[bearerAuth](../README.md#bearerAuth)
 
 ### HTTP request headers
 
@@ -482,15 +530,21 @@ Get os types and distributions as a list
 
 ### Example
 
+* Bearer (JWT) Authentication (bearerAuth):
 ```python
 from __future__ import print_function
 import time
 import fcsm_eos_api_client
 from fcsm_eos_api_client.rest import ApiException
 from pprint import pprint
+configuration = fcsm_eos_api_client.Configuration()
+# Configure Bearer authorization (JWT): bearerAuth
+configuration.access_token = 'YOUR_BEARER_TOKEN'
 
+# Defining host is optional and default to https://emeia-eos.fcsm.io
+configuration.host = "https://emeia-eos.fcsm.io"
 # Create an instance of the API class
-api_instance = fcsm_eos_api_client.ImgWhitelistApi()
+api_instance = fcsm_eos_api_client.ImgWhitelistApi(fcsm_eos_api_client.ApiClient(configuration))
 
 try:
     # Get os types and distributions as a list
@@ -509,7 +563,7 @@ This endpoint does not need any parameter.
 
 ### Authorization
 
-No authorization required
+[bearerAuth](../README.md#bearerAuth)
 
 ### HTTP request headers
 

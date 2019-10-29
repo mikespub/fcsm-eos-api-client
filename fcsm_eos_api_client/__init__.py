@@ -14,7 +14,7 @@
 
 from __future__ import absolute_import
 
-__version__ = "1.2.1"
+__version__ = "1.2.2"
 
 # import apis into sdk package
 from fcsm_eos_api_client.api.analytics_api import AnalyticsApi
